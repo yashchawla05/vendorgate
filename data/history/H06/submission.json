@@ -1,0 +1,43 @@
+{
+  "legal_name": "Cedar Hollow Design LLC",
+  "trade_name": "",
+  "country": "US",
+  "entity_type": "company",
+  "address": {
+    "line1": "3558 Market St",
+    "city": "Portland",
+    "state": "Oregon",
+    "postal_code": "66453"
+  },
+  "contact": {
+    "name": "Accounts Payable",
+    "email": "ap@cedarhollow.example",
+    "phone": "+1 555 0188"
+  },
+  "website": "https://www.cedarhollow.example",
+  "tax": {
+    "ein": "27-3470016"
+  },
+  "bank": {
+    "account_holder": "Cedar Hollow Design LLC",
+    "account_number": "558011703203",
+    "bank_name": "Willamette Trust Bank",
+    "currency": "USD",
+    "bank_country": "US",
+    "routing_number": "094841806"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "w9",
+      "filename": "w9.pdf"
+    },
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    }
+  ]
+}

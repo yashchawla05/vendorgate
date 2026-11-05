@@ -1,0 +1,53 @@
+{
+  "legal_name": "Amberleaf Textiles Private Limited",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "165, Park Street",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "postal_code": "417262"
+  },
+  "contact": {
+    "name": "Accounts Team",
+    "email": "accounts@amberleaftextiles.example",
+    "phone": "+91 00000 51439"
+  },
+  "website": "https://www.amberleaftextiles.example",
+  "tax": {
+    "pan": "ZZYCA0214K",
+    "gstin": "09ZZYCA0214K1ZB",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Amberleaf Textiles Private Limited",
+    "account_number": "69462567511460",
+    "bank_name": "Punjab National Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "PUNB0SYN962"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

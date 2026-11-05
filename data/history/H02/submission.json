@@ -1,0 +1,53 @@
+{
+  "legal_name": "Copperline Engineering Private Limited",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "50, Park Street",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "postal_code": "341936"
+  },
+  "contact": {
+    "name": "Procurement Desk",
+    "email": "accounts@copperlineengineering.example",
+    "phone": "+91 00000 16242"
+  },
+  "website": "https://www.copperlineengineering.example",
+  "tax": {
+    "pan": "ZZHCC0363E",
+    "gstin": "27ZZHCC0363E1ZV",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Copperline Engineering Private Limited",
+    "account_number": "51659422266577",
+    "bank_name": "Bank of Maharashtra",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "MAHB0SYN556"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

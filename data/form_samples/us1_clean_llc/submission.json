@@ -1,0 +1,43 @@
+{
+  "legal_name": "Canyon Ridge Supply LLC",
+  "trade_name": "",
+  "country": "US",
+  "entity_type": "company",
+  "address": {
+    "line1": "9002 Oak Ave",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "postal_code": "94796"
+  },
+  "contact": {
+    "name": "Accounts Payable",
+    "email": "ap@canyonridge.example",
+    "phone": "+1 555 0154"
+  },
+  "website": "https://www.canyonridge.example",
+  "tax": {
+    "ein": "84-7877708"
+  },
+  "bank": {
+    "account_holder": "Canyon Ridge Supply LLC",
+    "account_number": "445961663012",
+    "bank_name": "Saguaro Federal Bank",
+    "currency": "USD",
+    "bank_country": "US",
+    "routing_number": "014611906"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "w9",
+      "filename": "w9.pdf"
+    },
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    }
+  ]
+}

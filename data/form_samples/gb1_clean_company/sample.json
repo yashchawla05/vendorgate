@@ -1,0 +1,9 @@
+{
+  "id": "gb1_clean_company",
+  "country": "GB",
+  "title": "UK 1: Clean limited company",
+  "story": "Companies House certificate and bank letter that match the form.",
+  "expect": {
+    "status": "APPROVED"
+  }
+}

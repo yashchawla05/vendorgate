@@ -1,0 +1,53 @@
+{
+  "legal_name": "Palisade Security Systems Private Limited",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "102, Industrial Estate",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "postal_code": "607957"
+  },
+  "contact": {
+    "name": "Finance Desk",
+    "email": "accounts@palisadesecurity.example",
+    "phone": "+91 00000 95919"
+  },
+  "website": "https://www.palisadesecurity.example",
+  "tax": {
+    "pan": "ZZSCP7625H",
+    "gstin": "36ZZSCP7625H1ZR",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Palisade Security Systems Private Limited",
+    "account_number": "80433277982546",
+    "bank_name": "Indian Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "IDIB0SYN543"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

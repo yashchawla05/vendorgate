@@ -1,0 +1,53 @@
+{
+  "legal_name": "Saltmarsh Chemicals Private Limited",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "105, Ring Road",
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "postal_code": "744229"
+  },
+  "contact": {
+    "name": "Finance Desk",
+    "email": "accounts@saltmarshchemicals.example",
+    "phone": "+91 00000 87533"
+  },
+  "website": "https://www.saltmarshchemicals.example",
+  "tax": {
+    "pan": "ZZHCS6281G",
+    "gstin": "24ZZHCS6281G1Z4",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Saltmarsh Chemicals Private Limited",
+    "account_number": "55356141226109",
+    "bank_name": "Bank of Baroda",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "BARB0SYN523"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

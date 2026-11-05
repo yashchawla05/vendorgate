@@ -1,0 +1,1296 @@
+{
+  "scenarios/happy/initial/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZSCK1133Y",
+      "name": "Kestrel Analytics Private Limited",
+      "date": "2015-11-09"
+    },
+    "has_injection": false
+  },
+  "scenarios/happy/initial/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "29ZZSCK1133Y1Z9",
+      "legal_name": "Kestrel Analytics Private Limited",
+      "trade_name": "Kestrel Analytics",
+      "address": "36, Ring Road, Bengaluru, Karnataka 909717",
+      "registration_date": "2018-08-13",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "scenarios/happy/initial/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Kestrel Analytics Pvt Ltd",
+      "account_number": "98826426187335",
+      "ifsc": "HDFC0SYN191",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "HDFC Bank",
+      "letter_date": "2026-10-08"
+    },
+    "has_injection": false
+  },
+  "scenarios/happy/initial/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Kestrel Analytics Private Limited",
+      "cin": "U74999KA2015PTC701907",
+      "incorporation_date": "2015-11-09"
+    },
+    "has_injection": false
+  },
+  "scenarios/e1_looks_fine/initial/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZBPB6738L",
+      "name": "Brightline Components Private Limited",
+      "date": "2013-06-26"
+    },
+    "has_injection": false
+  },
+  "scenarios/e1_looks_fine/initial/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "27ZZQCB7542N1ZT",
+      "legal_name": "Brightline Components Private Limited",
+      "trade_name": "",
+      "address": "218, Park Street, Pune, Maharashtra 480671",
+      "registration_date": "2019-05-18",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "scenarios/e1_looks_fine/initial/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Brightline Components Private Limited",
+      "account_number": "76844666588",
+      "ifsc": "UTIB0SYN266",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Axis Bank",
+      "letter_date": "2026-10-05"
+    },
+    "has_injection": false
+  },
+  "scenarios/e1_looks_fine/initial/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Brightline Components Private Limited",
+      "cin": "U52100MH2013PTC694051",
+      "incorporation_date": "2013-06-26"
+    },
+    "has_injection": false
+  },
+  "scenarios/e2_wrong_docs/initial/w9.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZDCH5758G",
+      "name": "Harborview Logistics LLC",
+      "date": "2016-03-09"
+    },
+    "has_injection": false
+  },
+  "scenarios/e3_ghost_vendor/initial/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZFCS8412Q",
+      "name": "Silverline Office Supplies Private Limited",
+      "date": "2012-06-22"
+    },
+    "has_injection": false
+  },
+  "scenarios/e3_ghost_vendor/initial/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "27ZZFCS8412Q1ZM",
+      "legal_name": "Silverline Office Supplies Private Limited",
+      "trade_name": "",
+      "address": "124, Ring Road, Mumbai, Maharashtra 994817",
+      "registration_date": "2020-10-20",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "scenarios/e3_ghost_vendor/initial/bank_proof.pdf": {
+    "doc_type": "cancelled_cheque",
+    "layout": "A",
+    "fields": {
+      "account_holder": "R K Enterprises",
+      "account_number": "15076170215",
+      "ifsc": "HDFC0SYN193",
+      "bank_name": "HDFC Bank"
+    },
+    "has_injection": false
+  },
+  "scenarios/e3_ghost_vendor/initial/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Silverline Office Supplies Private Limited",
+      "cin": "U74999MH2012PTC530520",
+      "incorporation_date": "2012-06-22"
+    },
+    "has_injection": false
+  },
+  "scenarios/e4_fix_approved/initial/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZAFL3759F",
+      "name": "Lotus Lane Organics LLP",
+      "date": "2014-08-29"
+    },
+    "has_injection": false
+  },
+  "scenarios/e4_fix_approved/initial/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "33ZZAFL3759F1ZE",
+      "legal_name": "Lotus Lane Organics LLP",
+      "trade_name": "",
+      "address": "137, Industrial Estate, Coimbatore, Tamil Nadu 826570",
+      "registration_date": "2023-11-09",
+      "constitution": "Limited Liability Partnership"
+    },
+    "has_injection": false
+  },
+  "scenarios/e4_fix_approved/initial/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Lotus Lane Organics LLP",
+      "cin": "RWL-8877",
+      "incorporation_date": "2014-08-29"
+    },
+    "has_injection": false
+  },
+  "scenarios/e4_fix_approved/resubmit/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Lotus Lane Organics LLP",
+      "account_number": "434632443909",
+      "ifsc": "ICIC0SYN998",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "ICICI Bank",
+      "letter_date": "2026-10-21"
+    },
+    "has_injection": false
+  },
+  "scenarios/e4b_bank_change/initial/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZUFJ4505Y",
+      "name": "Juniper Grove Farms LLP",
+      "date": "2016-05-25"
+    },
+    "has_injection": false
+  },
+  "scenarios/e4b_bank_change/initial/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "29ZZUFJ4505Y1ZW",
+      "legal_name": "Juniper Grove Farms LLP",
+      "trade_name": "",
+      "address": "161, Industrial Estate, Hubballi, Karnataka 646644",
+      "registration_date": "2019-02-11",
+      "constitution": "Limited Liability Partnership"
+    },
+    "has_injection": false
+  },
+  "scenarios/e4b_bank_change/initial/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Juniper Grove Farms LLP",
+      "cin": "QEE-5776",
+      "incorporation_date": "2016-05-25"
+    },
+    "has_injection": false
+  },
+  "scenarios/e4b_bank_change/resubmit/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Juniper Grove Farms LLP",
+      "account_number": "329133415096",
+      "ifsc": "CNRB0SYN895",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Canara Bank",
+      "letter_date": "2026-10-12"
+    },
+    "has_injection": false
+  },
+  "scenarios/e5_sanctions_near_miss/initial/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZCCN7272P",
+      "name": "Neptune Maritime Private Limited",
+      "date": "2019-09-14"
+    },
+    "has_injection": false
+  },
+  "scenarios/e5_sanctions_near_miss/initial/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "24ZZCCN7272P1ZU",
+      "legal_name": "Neptune Maritime Private Limited",
+      "trade_name": "",
+      "address": "105, Ring Road, Ahmedabad, Gujarat 346630",
+      "registration_date": "2023-09-15",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "scenarios/e5_sanctions_near_miss/initial/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Neptune Maritime Private Limited",
+      "account_number": "38260609744037",
+      "ifsc": "BARB0SYN926",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Bank of Baroda",
+      "letter_date": "2026-10-22"
+    },
+    "has_injection": false
+  },
+  "scenarios/e5_sanctions_near_miss/initial/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Neptune Maritime Private Limited",
+      "cin": "U74999GJ2019PTC337919",
+      "incorporation_date": "2019-09-14"
+    },
+    "has_injection": false
+  },
+  "history/H01/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZYCA0214K",
+      "name": "Amberleaf Textiles Private Limited",
+      "date": "2009-12-03"
+    },
+    "has_injection": false
+  },
+  "history/H01/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "09ZZYCA0214K1ZB",
+      "legal_name": "Amberleaf Textiles Private Limited",
+      "trade_name": "",
+      "address": "165, Park Street, Kanpur, Uttar Pradesh 417262",
+      "registration_date": "2019-11-26",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H01/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Amberleaf Textiles Private Limited",
+      "account_number": "69462567511460",
+      "ifsc": "PUNB0SYN962",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Punjab National Bank",
+      "letter_date": "2026-09-24"
+    },
+    "has_injection": false
+  },
+  "history/H01/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Amberleaf Textiles Private Limited",
+      "cin": "U52100UP2009PTC989596",
+      "incorporation_date": "2009-12-03"
+    },
+    "has_injection": false
+  },
+  "history/H02/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZHCC0363E",
+      "name": "Copperline Engineering Private Limited",
+      "date": "2014-07-15"
+    },
+    "has_injection": false
+  },
+  "history/H02/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "27ZZHCC0363E1ZV",
+      "legal_name": "Copperline Engineering Private Limited",
+      "trade_name": "",
+      "address": "50, Park Street, Nashik, Maharashtra 341936",
+      "registration_date": "2020-01-21",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H02/bank_proof.pdf": {
+    "doc_type": "cancelled_cheque",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Copperline Engineering Private Limited",
+      "account_number": "51659422266577",
+      "ifsc": "MAHB0SYN556",
+      "bank_name": "Bank of Maharashtra"
+    },
+    "has_injection": false
+  },
+  "history/H02/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Copperline Engineering Private Limited",
+      "cin": "U74999MH2014PTC160400",
+      "incorporation_date": "2014-07-15"
+    },
+    "has_injection": false
+  },
+  "history/H03/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZIFM9792C",
+      "name": "Monsoon Media LLP",
+      "date": "2015-01-01"
+    },
+    "has_injection": false
+  },
+  "history/H03/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "19ZZIFM9792C1ZO",
+      "legal_name": "Monsoon Media LLP",
+      "trade_name": "",
+      "address": "14, Station Road, Kolkata, West Bengal 948969",
+      "registration_date": "2017-08-04",
+      "constitution": "Limited Liability Partnership"
+    },
+    "has_injection": false
+  },
+  "history/H03/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Monsoon Media LLP",
+      "account_number": "34000538038911",
+      "ifsc": "UCBA0SYN462",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "UCO Bank",
+      "letter_date": "2026-09-15"
+    },
+    "has_injection": false
+  },
+  "history/H03/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Monsoon Media LLP",
+      "cin": "DCH-2772",
+      "incorporation_date": "2015-01-01"
+    },
+    "has_injection": false
+  },
+  "history/H04/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZMPM3176I",
+      "name": "Arjun Menon",
+      "date": "2021-06-18"
+    },
+    "has_injection": false
+  },
+  "history/H04/no_gst_declaration.pdf": {
+    "doc_type": "no_gst_declaration",
+    "layout": "B",
+    "fields": {
+      "legal_name": "Arjun Menon",
+      "pan": "ZZMPM3176I",
+      "declaration_date": "2026-10-05"
+    },
+    "has_injection": false
+  },
+  "history/H04/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Tamarind Foods",
+      "account_number": "755921294579",
+      "ifsc": "CNRB0SYN446",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Canara Bank",
+      "letter_date": "2026-09-20"
+    },
+    "has_injection": false
+  },
+  "history/H05/w9.pdf": {
+    "doc_type": "w9",
+    "layout": "A",
+    "fields": {
+      "name": "Bluefin Freight Inc",
+      "business_name": "",
+      "tax_classification": "C corporation",
+      "ein": "20-5649307",
+      "address": "6483 Commerce Dr, Tacoma, Washington 92931",
+      "signature_date": "2026-10-09"
+    },
+    "has_injection": false
+  },
+  "history/H05/bank_letter.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Bluefin Freight Inc",
+      "account_number": "322610704669",
+      "ifsc": "",
+      "routing_number": "065060030",
+      "sort_code": "",
+      "bank_name": "Puget Harbor Bank",
+      "letter_date": "2026-10-02"
+    },
+    "has_injection": false
+  },
+  "history/H06/w9.pdf": {
+    "doc_type": "w9",
+    "layout": "A",
+    "fields": {
+      "name": "Cedar Hollow Design LLC",
+      "business_name": "",
+      "tax_classification": "LLC (C corporation)",
+      "ein": "27-3470016",
+      "address": "3558 Market St, Portland, Oregon 66453",
+      "signature_date": "2026-10-11"
+    },
+    "has_injection": false
+  },
+  "history/H06/bank_letter.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Cedar Hollow Design LLC",
+      "account_number": "558011703203",
+      "ifsc": "",
+      "routing_number": "094841806",
+      "sort_code": "",
+      "bank_name": "Willamette Trust Bank",
+      "letter_date": "2026-10-04"
+    },
+    "has_injection": false
+  },
+  "history/H07/bank_letter.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Wren & Oak Interiors Ltd",
+      "account_number": "38742423",
+      "ifsc": "",
+      "routing_number": "",
+      "sort_code": "78-18-54",
+      "bank_name": "Severn Commercial Bank",
+      "letter_date": "2026-09-30"
+    },
+    "has_injection": false
+  },
+  "history/H07/company_registration.pdf": {
+    "doc_type": "company_registration_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Wren & Oak Interiors Ltd",
+      "company_number": "84869933",
+      "incorporation_date": "2019-12-25"
+    },
+    "has_injection": false
+  },
+  "history/H08/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZSCP7625H",
+      "name": "Palisade Security Systems Private Limited",
+      "date": "2013-04-18"
+    },
+    "has_injection": false
+  },
+  "history/H08/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "36ZZSCP7625H1ZR",
+      "legal_name": "Palisade Security Systems Private Limited",
+      "trade_name": "",
+      "address": "102, Industrial Estate, Hyderabad, Telangana 607957",
+      "registration_date": "2022-03-25",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H08/bank_proof.pdf": {
+    "doc_type": "cancelled_cheque",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Palisade Security Systems Private Limited",
+      "account_number": "80433277982546",
+      "ifsc": "IDIB0SYN543",
+      "bank_name": "Indian Bank"
+    },
+    "has_injection": false
+  },
+  "history/H08/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Palisade Security Systems Private Limited",
+      "cin": "U74999TG2013PTC464397",
+      "incorporation_date": "2013-04-18"
+    },
+    "has_injection": false
+  },
+  "history/H09/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZRCJ5660L",
+      "name": "Juniper Labs Private Limited",
+      "date": "2011-04-14"
+    },
+    "has_injection": false
+  },
+  "history/H09/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "29ZZRCJ5660L1ZL",
+      "legal_name": "Juniper Labs Private Limited",
+      "trade_name": "",
+      "address": "190, Station Road, Bengaluru, Karnataka 976407",
+      "registration_date": "2017-12-18",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H09/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Juniper Labs Private Limited",
+      "account_number": "195766148619",
+      "ifsc": "KKBK0SYN436",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Kotak Mahindra Bank",
+      "letter_date": "2026-09-27"
+    },
+    "has_injection": false
+  },
+  "history/H09/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Juniper Labs Private Limited",
+      "cin": "U74999KA2011PTC372334",
+      "incorporation_date": "2011-04-14"
+    },
+    "has_injection": false
+  },
+  "history/H10/bank_letter.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Northgate Advisory Ltd",
+      "account_number": "79378319",
+      "ifsc": "",
+      "routing_number": "",
+      "sort_code": "45-26-57",
+      "bank_name": "Irwell Bank",
+      "letter_date": "2026-10-13"
+    },
+    "has_injection": false
+  },
+  "history/H10/company_registration.pdf": {
+    "doc_type": "company_registration_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Northgate Advisory Ltd",
+      "company_number": "56968751",
+      "incorporation_date": "2021-10-14"
+    },
+    "has_injection": false
+  },
+  "history/H11/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZOCM4906F",
+      "name": "Marigold Event Services Private Limited",
+      "date": "2014-04-08"
+    },
+    "has_injection": false
+  },
+  "history/H11/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "07ZZOCM4906F1Z9",
+      "legal_name": "Marigold Event Services Private Limited",
+      "trade_name": "",
+      "address": "211, Ring Road, New Delhi, Delhi 567482",
+      "registration_date": "2017-10-16",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H11/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Marigold Event Services Private Limited",
+      "account_number": "40848449527843",
+      "ifsc": "YESB0SYN820",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Yes Bank",
+      "letter_date": "2026-06-16"
+    },
+    "has_injection": false
+  },
+  "history/H11/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Marigold Event Services Private Limited",
+      "cin": "U72200DL2014PTC974649",
+      "incorporation_date": "2014-04-08"
+    },
+    "has_injection": false
+  },
+  "history/H12/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZKCI4721X",
+      "name": "Ironbark Tools Private Limited",
+      "date": "2012-09-05"
+    },
+    "has_injection": false
+  },
+  "history/H12/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "06ZZKCI4721X1ZL",
+      "legal_name": "Ironbark Tools Private Limited",
+      "trade_name": "",
+      "address": "136, Ring Road, Faridabad, Haryana 741172",
+      "registration_date": "2021-04-27",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H12/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Ironbark Tools Private Limited",
+      "account_number": "978489409364",
+      "ifsc": "PUNB0SYN816",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Punjab National Bank",
+      "letter_date": "2026-10-03"
+    },
+    "has_injection": false
+  },
+  "history/H13/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZHCS6281G",
+      "name": "Saltmarsh Chemicals Private Limited",
+      "date": "2012-03-23"
+    },
+    "has_injection": false
+  },
+  "history/H13/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "24ZZHCS6281G1Z4",
+      "legal_name": "Saltmarsh Chemicals Private Limited",
+      "trade_name": "",
+      "address": "105, Ring Road, Vadodara, Gujarat 744229",
+      "registration_date": "2021-11-21",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H13/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Saltmarsh Chemicals Private Limited",
+      "account_number": "55356141226109",
+      "ifsc": "BARB0SYN523",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Bank of Baroda",
+      "letter_date": "2026-10-21"
+    },
+    "has_injection": false
+  },
+  "history/H13/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Saltmarsh Chemicals Private Limited",
+      "cin": "U52100GJ2012PTC912215",
+      "incorporation_date": "2012-03-23"
+    },
+    "has_injection": false
+  },
+  "history/H14/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZRCQ1826X",
+      "name": "Vertex Prime Supplies Private Limited",
+      "date": "2020-03-16"
+    },
+    "has_injection": false
+  },
+  "history/H14/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "24ZZRCQ1826X2Z7",
+      "legal_name": "Vertex Prime Supplies Private Limited",
+      "trade_name": "",
+      "address": "146, Station Road, Rajkot, Gujarat 332938",
+      "registration_date": "2022-08-19",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H14/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Vertex Prime Supplies Private Limited",
+      "account_number": "54293910563147",
+      "ifsc": "SBIN0SYN985",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "State Bank of India",
+      "letter_date": "2026-10-06"
+    },
+    "has_injection": false
+  },
+  "history/H14/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Vertex Prime Supplies Private Limited",
+      "cin": "U51909GJ2020PTC290245",
+      "incorporation_date": "2020-03-16"
+    },
+    "has_injection": false
+  },
+  "history/H15/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZGCR8602J",
+      "name": "Redwood Valley Analytics Private Limited",
+      "date": "2020-07-08"
+    },
+    "has_injection": false
+  },
+  "history/H15/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "36ZZGCR8602J1Z1",
+      "legal_name": "Redwood Valley Analytics Private Limited",
+      "trade_name": "",
+      "address": "155, Ring Road, Secunderabad, Telangana 923773",
+      "registration_date": "2022-03-24",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H15/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Redwood Valley Analytics Private Limited",
+      "account_number": "42223026362",
+      "ifsc": "HDFC0SYN714",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "HDFC Bank",
+      "letter_date": "2026-10-13"
+    },
+    "has_injection": false
+  },
+  "history/H15/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Redwood Valley Analytics Private Limited",
+      "cin": "U51909TG2020PTC835620",
+      "incorporation_date": "2020-07-08"
+    },
+    "has_injection": false
+  },
+  "history/H16/pan_card.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZFCK2829F",
+      "name": "Kingfisher Print Works Private Limited",
+      "date": "2011-04-27"
+    },
+    "has_injection": false
+  },
+  "history/H16/gst_certificate.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "33ZZFCK2829F1ZN",
+      "legal_name": "Kingfisher Print Works Private Limited",
+      "trade_name": "",
+      "address": "203, Station Road, Madurai, Tamil Nadu 807683",
+      "registration_date": "2018-06-03",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "history/H16/bank_proof.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Kingfisher Print Works Private Limited",
+      "account_number": "99473829039579",
+      "ifsc": "IOBA0SYN466",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Indian Overseas Bank",
+      "letter_date": "2026-10-11"
+    },
+    "has_injection": true
+  },
+  "history/H16/incorporation_certificate.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Kingfisher Print Works Private Limited",
+      "cin": "U72200TN2011PTC708819",
+      "incorporation_date": "2011-04-27"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_pan_card_A.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZACO7703M",
+      "name": "Orchid Bay Ceramics Private Limited",
+      "date": "2009-08-11"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_pan_card_B.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZACO7703M",
+      "name": "Orchid Bay Ceramics Private Limited",
+      "date": "2009-08-11"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_gst_certificate_A.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "29ZZACO7703M1ZZ",
+      "legal_name": "Orchid Bay Ceramics Private Limited",
+      "trade_name": "",
+      "address": "48, Park Street, Mangaluru, Karnataka 163910",
+      "registration_date": "2018-06-02",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_gst_certificate_B.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "29ZZACO7703M1ZZ",
+      "legal_name": "Orchid Bay Ceramics Private Limited",
+      "trade_name": "",
+      "address": "48, Park Street, Mangaluru, Karnataka 163910",
+      "registration_date": "2018-06-02",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_cancelled_cheque_A.pdf": {
+    "doc_type": "cancelled_cheque",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Orchid Bay Ceramics Private Limited",
+      "account_number": "137189246387",
+      "ifsc": "CNRB0SYN201",
+      "bank_name": "Canara Bank"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_cancelled_cheque_B.pdf": {
+    "doc_type": "cancelled_cheque",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Orchid Bay Ceramics Private Limited",
+      "account_number": "137189246387",
+      "ifsc": "CNRB0SYN201",
+      "bank_name": "Canara Bank"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_bank_letter_A.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Orchid Bay Ceramics Private Limited",
+      "account_number": "137189246387",
+      "ifsc": "CNRB0SYN201",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Canara Bank",
+      "letter_date": "2026-10-11"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_bank_letter_B.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Orchid Bay Ceramics Private Limited",
+      "account_number": "137189246387",
+      "ifsc": "CNRB0SYN201",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Canara Bank",
+      "letter_date": "2026-10-21"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_incorporation_certificate_A.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Orchid Bay Ceramics Private Limited",
+      "cin": "U72200KA2009PTC791867",
+      "incorporation_date": "2009-08-11"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_incorporation_certificate_B.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Orchid Bay Ceramics Private Limited",
+      "cin": "U72200KA2009PTC791867",
+      "incorporation_date": "2009-08-11"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_pan_card_A.pdf": {
+    "doc_type": "pan_card",
+    "layout": "A",
+    "fields": {
+      "pan": "ZZEFS2338Z",
+      "name": "Silver Oak Advisors LLP",
+      "date": "2011-12-25"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_pan_card_B.pdf": {
+    "doc_type": "pan_card",
+    "layout": "B",
+    "fields": {
+      "pan": "ZZEFS2338Z",
+      "name": "Silver Oak Advisors LLP",
+      "date": "2011-12-25"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_gst_certificate_A.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "A",
+    "fields": {
+      "gstin": "27ZZEFS2338Z1Z2",
+      "legal_name": "Silver Oak Advisors LLP",
+      "trade_name": "",
+      "address": "71, Park Street, Thane, Maharashtra 277503",
+      "registration_date": "2017-02-18",
+      "constitution": "Limited Liability Partnership"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_gst_certificate_B.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B",
+    "fields": {
+      "gstin": "27ZZEFS2338Z1Z2",
+      "legal_name": "Silver Oak Advisors LLP",
+      "trade_name": "",
+      "address": "71, Park Street, Thane, Maharashtra 277503",
+      "registration_date": "2017-02-18",
+      "constitution": "Limited Liability Partnership"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_cancelled_cheque_A.pdf": {
+    "doc_type": "cancelled_cheque",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Silver Oak Advisors LLP",
+      "account_number": "66158114745",
+      "ifsc": "KKBK0SYN449",
+      "bank_name": "Kotak Mahindra Bank"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_cancelled_cheque_B.pdf": {
+    "doc_type": "cancelled_cheque",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Silver Oak Advisors LLP",
+      "account_number": "66158114745",
+      "ifsc": "KKBK0SYN449",
+      "bank_name": "Kotak Mahindra Bank"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_bank_letter_A.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Silver Oak Advisors LLP",
+      "account_number": "66158114745",
+      "ifsc": "KKBK0SYN449",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Kotak Mahindra Bank",
+      "letter_date": "2026-10-20"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_bank_letter_B.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Silver Oak Advisors LLP",
+      "account_number": "66158114745",
+      "ifsc": "KKBK0SYN449",
+      "routing_number": "",
+      "sort_code": "",
+      "bank_name": "Kotak Mahindra Bank",
+      "letter_date": "2026-10-18"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_incorporation_certificate_A.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Silver Oak Advisors LLP",
+      "cin": "INZ-7749",
+      "incorporation_date": "2011-12-25"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_llp_incorporation_certificate_B.pdf": {
+    "doc_type": "incorporation_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Silver Oak Advisors LLP",
+      "cin": "INZ-7749",
+      "incorporation_date": "2011-12-25"
+    },
+    "has_injection": false
+  },
+  "eval/docs/us_w9_A.pdf": {
+    "doc_type": "w9",
+    "layout": "A",
+    "fields": {
+      "name": "Prairie Gate Supplies Inc",
+      "business_name": "",
+      "tax_classification": "C corporation",
+      "ein": "20-8048818",
+      "address": "6097 Commerce Dr, Wichita, Kansas 41072",
+      "signature_date": "2026-10-29"
+    },
+    "has_injection": false
+  },
+  "eval/docs/us_w9_B.pdf": {
+    "doc_type": "w9",
+    "layout": "B",
+    "fields": {
+      "name": "Prairie Gate Supplies Inc",
+      "business_name": "",
+      "tax_classification": "C corporation",
+      "ein": "20-8048818",
+      "address": "6097 Commerce Dr, Wichita, Kansas 41072",
+      "signature_date": "2026-10-29"
+    },
+    "has_injection": false
+  },
+  "eval/docs/us_bank_letter_A.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Prairie Gate Supplies Inc",
+      "account_number": "438499548497",
+      "ifsc": "",
+      "routing_number": "075417709",
+      "sort_code": "",
+      "bank_name": "Flint Hills Bank",
+      "letter_date": "2026-10-20"
+    },
+    "has_injection": false
+  },
+  "eval/docs/us_bank_letter_B.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Prairie Gate Supplies Inc",
+      "account_number": "438499548497",
+      "ifsc": "",
+      "routing_number": "075417709",
+      "sort_code": "",
+      "bank_name": "Flint Hills Bank",
+      "letter_date": "2026-10-25"
+    },
+    "has_injection": false
+  },
+  "eval/docs/uk_bank_letter_A.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "A",
+    "fields": {
+      "account_holder": "Kestle & Moor Engineering Ltd",
+      "account_number": "14919319",
+      "ifsc": "",
+      "routing_number": "",
+      "sort_code": "96-73-10",
+      "bank_name": "Midland Shires Bank",
+      "letter_date": "2026-10-07"
+    },
+    "has_injection": false
+  },
+  "eval/docs/uk_bank_letter_B.pdf": {
+    "doc_type": "bank_letter",
+    "layout": "B",
+    "fields": {
+      "account_holder": "Kestle & Moor Engineering Ltd",
+      "account_number": "14919319",
+      "ifsc": "",
+      "routing_number": "",
+      "sort_code": "96-73-10",
+      "bank_name": "Midland Shires Bank",
+      "letter_date": "2026-10-14"
+    },
+    "has_injection": false
+  },
+  "eval/docs/uk_company_registration_certificate_A.pdf": {
+    "doc_type": "company_registration_certificate",
+    "layout": "A",
+    "fields": {
+      "company_name": "Kestle & Moor Engineering Ltd",
+      "company_number": "42345721",
+      "incorporation_date": "2018-09-02"
+    },
+    "has_injection": false
+  },
+  "eval/docs/uk_company_registration_certificate_B.pdf": {
+    "doc_type": "company_registration_certificate",
+    "layout": "B",
+    "fields": {
+      "company_name": "Kestle & Moor Engineering Ltd",
+      "company_number": "42345721",
+      "incorporation_date": "2018-09-02"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_pan_card_A_scan.jpg": {
+    "doc_type": "pan_card",
+    "layout": "A-scan",
+    "fields": {
+      "pan": "ZZACO7703M",
+      "name": "Orchid Bay Ceramics Private Limited",
+      "date": "2009-08-11"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_cancelled_cheque_A_scan.jpg": {
+    "doc_type": "cancelled_cheque",
+    "layout": "A-scan",
+    "fields": {
+      "account_holder": "Orchid Bay Ceramics Private Limited",
+      "account_number": "137189246387",
+      "ifsc": "CNRB0SYN201",
+      "bank_name": "Canara Bank"
+    },
+    "has_injection": false
+  },
+  "eval/docs/in_co_gst_certificate_B_scan.pdf": {
+    "doc_type": "gst_certificate",
+    "layout": "B-scan",
+    "fields": {
+      "gstin": "29ZZACO7703M1ZZ",
+      "legal_name": "Orchid Bay Ceramics Private Limited",
+      "trade_name": "",
+      "address": "48, Park Street, Mangaluru, Karnataka 163910",
+      "registration_date": "2018-06-02",
+      "constitution": "Private Limited Company"
+    },
+    "has_injection": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "legal_name": "Monsoon Media LLP",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "llp_partnership",
+  "address": {
+    "line1": "14, Station Road",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "postal_code": "948969"
+  },
+  "contact": {
+    "name": "Accounts Team",
+    "email": "accounts@monsoonmedia.example",
+    "phone": "+91 00000 27408"
+  },
+  "website": "https://www.monsoonmedia.example",
+  "tax": {
+    "pan": "ZZIFM9792C",
+    "gstin": "19ZZIFM9792C1ZO",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Monsoon Media LLP",
+    "account_number": "34000538038911",
+    "bank_name": "UCO Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "UCBA0SYN462"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

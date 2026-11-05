@@ -1,0 +1,9 @@
+{
+  "id": "in2_proprietor_no_gst",
+  "country": "IN",
+  "title": "India 2: Proprietorship below the GST threshold",
+  "story": "A sole proprietor with no GSTIN: a non-registration declaration replaces the GST certificate and a cancelled cheque is the bank proof. The legal name is the owner's; the shop name is the trade name.",
+  "expect": {
+    "status": "APPROVED"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "legal_name": "Bluefin Freight Inc",
+  "trade_name": "",
+  "country": "US",
+  "entity_type": "company",
+  "address": {
+    "line1": "6483 Commerce Dr",
+    "city": "Tacoma",
+    "state": "Washington",
+    "postal_code": "92931"
+  },
+  "contact": {
+    "name": "Accounts Payable",
+    "email": "ap@bluefinfreight.example",
+    "phone": "+1 555 0124"
+  },
+  "website": "https://www.bluefinfreight.example",
+  "tax": {
+    "ein": "20-5649307"
+  },
+  "bank": {
+    "account_holder": "Bluefin Freight Inc",
+    "account_number": "322610704669",
+    "bank_name": "Puget Harbor Bank",
+    "currency": "USD",
+    "bank_country": "US",
+    "routing_number": "065060030"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "w9",
+      "filename": "w9.pdf"
+    },
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "legal_name": "Kingsbridge Tea Company Ltd",
+  "trade_name": "",
+  "country": "GB",
+  "entity_type": "company",
+  "address": {
+    "line1": "95 High Street",
+    "city": "Plymouth",
+    "state": "England",
+    "postal_code": "LS1 4DY"
+  },
+  "contact": {
+    "name": "Finance Team",
+    "email": "finance@kingsbridgetea.example",
+    "phone": "+44 7700 900102"
+  },
+  "website": "https://www.kingsbridgetea.example",
+  "tax": {
+    "company_number": "38595303"
+  },
+  "bank": {
+    "account_holder": "Fenwick Trading Ltd",
+    "account_number": "79519207",
+    "bank_name": "Tamar Commercial Bank",
+    "currency": "GBP",
+    "bank_country": "GB",
+    "sort_code": "97-94-38"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    },
+    {
+      "slot": "company_registration",
+      "filename": "company_registration.pdf"
+    }
+  ]
+}

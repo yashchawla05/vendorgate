@@ -1,0 +1,13 @@
+{
+  "id": "gb2_holder_mismatch",
+  "country": "GB",
+  "title": "UK 2: Bank account in another company's name",
+  "story": "The bank letter is genuine-looking and current, but the account belongs to a different company. Paying it could send money to a third party, so a person must review it.",
+  "expect": {
+    "status": "PENDING",
+    "sub_status": "awaiting_internal_review",
+    "rules": [
+      "CON-007"
+    ]
+  }
+}

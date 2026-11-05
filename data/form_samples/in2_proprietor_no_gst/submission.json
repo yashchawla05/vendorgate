@@ -1,0 +1,49 @@
+{
+  "legal_name": "Meera Iyer",
+  "trade_name": "Peacock Spice Traders",
+  "country": "IN",
+  "entity_type": "proprietorship",
+  "address": {
+    "line1": "175, Park Street",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "postal_code": "249886"
+  },
+  "contact": {
+    "name": "Meera Iyer",
+    "email": "accounts@peacockspice.example",
+    "phone": "+91 00000 26296"
+  },
+  "website": "https://www.peacockspice.example",
+  "tax": {
+    "pan": "ZZUPI9837D",
+    "gstin": "",
+    "no_gst_declaration": true
+  },
+  "bank": {
+    "account_holder": "Peacock Spice Traders",
+    "account_number": "34517072558626",
+    "bank_name": "Indian Overseas Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "IOBA0SYN760"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "no_gst_declaration",
+      "filename": "no_gst_declaration.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    }
+  ]
+}

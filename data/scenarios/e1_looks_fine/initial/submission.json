@@ -1,0 +1,53 @@
+{
+  "legal_name": "Brightline Components Private Limited",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "218, Park Street",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "postal_code": "480671"
+  },
+  "contact": {
+    "name": "Finance Desk",
+    "email": "accounts@brightlinecomponents.example",
+    "phone": "+91 00000 13951"
+  },
+  "website": "https://www.brightlinecomponents.example",
+  "tax": {
+    "pan": "ZZBPB6738L",
+    "gstin": "27ZZQCB7542N1ZT",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Brightline Components Private Limited",
+    "account_number": "76844666588",
+    "bank_name": "Axis Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "UTIB0SYN266"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

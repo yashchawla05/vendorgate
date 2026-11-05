@@ -1,0 +1,401 @@
+# VendorGate rule catalogue.
+# Every finding the pipeline produces references one of these IDs. Severity, resolver and
+# blocks_approval live HERE (not in code), so the policy is reviewable in one place.
+#
+#   severity         INFO | WARN | HIGH | CRITICAL  (risk weights in policy.yaml)
+#   resolver         vendor   = the vendor can fix it (missing/invalid/wrong document)
+#                    internal = a person on our side must judge it (possible fraud, conflicting identity)
+#   blocks_approval  true = the submission cannot be APPROVED while this finding stands
+#                    (HIGH and CRITICAL always block; some WARNs block too)
+version: "2026-11-01.1"
+
+rules:
+  # ---------------------------------------------------------------- S2 completeness
+  - id: COMP-001
+    title: Required field missing
+    category: completeness
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S2
+    rationale: We cannot verify or pay a vendor without the core identity, tax and bank fields for its country.
+  - id: COMP-002
+    title: Required document missing
+    category: completeness
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S2
+    rationale: Each claim on the form must be backed by a document (tax registration, bank proof, incorporation).
+  - id: COMP-003
+    title: Country not supported for automated checks
+    category: completeness
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S2
+    rationale: Formats and documents are only defined for India, US and UK; other countries need manual review.
+  - id: COMP-004
+    title: Declarations not accepted
+    category: completeness
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S2
+    rationale: The vendor must confirm accuracy and consent to verification before we process its data.
+
+  # ---------------------------------------------------------------- S3 documents
+  - id: DOC-001
+    title: Wrong document type in slot
+    category: documents
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S3
+    rationale: A document in the wrong slot leaves the requirement unmet and is a common cause of onboarding delay.
+  - id: DOC-002
+    title: Document unreadable
+    category: documents
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S3
+    rationale: If we cannot read a document we cannot verify it; never assume it is fine.
+  - id: DOC-003
+    title: Low extraction confidence
+    category: documents
+    severity: WARN
+    resolver: vendor
+    blocks_approval: true
+    stage: S3
+    rationale: Approval requires every document's key fields to be read with confidence >= the policy threshold.
+  - id: DOC-004
+    title: Document understanding degraded
+    category: documents
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S3
+    rationale: The extraction service failed (timeout, invalid output, refusal). The document is treated as unread.
+  - id: DOC-005
+    title: Instruction-like text inside a document
+    category: documents
+    severity: WARN
+    resolver: internal
+    blocks_approval: true
+    stage: S3
+    rationale: Text addressed to an AI or reviewer inside a vendor document is a manipulation attempt; a person must look.
+
+  # ---------------------------------------------------------------- S4 format and checksum
+  - id: FMT-PAN
+    title: PAN format invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: PAN is 5 letters, 4 digits, 1 letter; the 4th letter must be a valid holder type.
+  - id: FMT-GSTIN
+    title: GSTIN invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: GSTIN = state code + PAN + entity number + 'Z' + mod-36 check character. A failed checksum is almost always a typo.
+  - id: FMT-IFSC
+    title: IFSC invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: IFSC is 4 letters, '0', 6 alphanumerics; a malformed IFSC means payments will bounce.
+  - id: FMT-IFSC-BANK
+    title: IFSC bank code does not match bank name
+    category: format
+    severity: WARN
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: The first 4 IFSC letters identify the bank; a mismatch with the stated bank name means one of them is wrong.
+  - id: FMT-ACCT
+    title: Bank account number invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: India 9-18 digits, US 4-17 digits, UK 8 digits.
+  - id: FMT-ACCT-REVIEW
+    title: Bank account number needs manual check
+    category: format
+    severity: WARN
+    resolver: internal
+    blocks_approval: true
+    stage: S4
+    rationale: Some UK banks use 9-10 digit numbers converted by bank-specific rules we do not implement.
+  - id: FMT-EIN
+    title: EIN invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: EIN is 9 digits with an IRS-issued 2-digit prefix (no checksum exists).
+  - id: FMT-ABA
+    title: ABA routing number invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: Routing numbers carry a 3-7-1 checksum and a Federal Reserve prefix; a failure is almost always a typo.
+  - id: FMT-SORT
+    title: UK sort code invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: UK sort codes are 6 digits.
+  - id: FMT-CRN
+    title: UK company number invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: Companies House numbers are 8 characters (digits, or a 2-letter prefix plus 6 digits).
+  - id: FMT-VAT
+    title: UK VAT number fails check
+    category: format
+    severity: WARN
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: The HMRC check-digit algorithm is unofficial, so a failure only warns.
+  - id: FMT-EMAIL
+    title: Contact email invalid
+    category: format
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S4
+    rationale: Every follow-up goes to this address.
+  - id: FMT-CIN
+    title: Company identity number unreadable or invalid
+    category: format
+    severity: WARN
+    resolver: vendor
+    blocks_approval: false
+    stage: S4
+    rationale: CIN/LLPIN is informational here (no registry lookup), so a bad value only warns.
+
+  # ---------------------------------------------------------------- S5 consistency
+  - id: CON-001
+    title: Tax ID type does not match country
+    category: consistency
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S5
+    rationale: A US vendor supplying an Indian GSTIN (or vice versa) means the wrong entity or the wrong form.
+  - id: CON-002
+    title: GSTIN embeds a different PAN
+    category: consistency
+    severity: CRITICAL
+    resolver: internal
+    blocks_approval: true
+    stage: S5
+    rationale: Characters 3-12 of a GSTIN are the holder's PAN. A different PAN means the GSTIN belongs to another legal person.
+  - id: CON-003
+    title: GSTIN state differs from address state
+    category: consistency
+    severity: WARN
+    resolver: vendor
+    blocks_approval: false
+    stage: S5
+    rationale: Usually a branch registration; worth a note, not a block.
+  - id: CON-004
+    title: PAN holder type does not match entity type
+    category: consistency
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S5
+    rationale: The 4th PAN letter encodes the holder type (C company, F firm/LLP, P individual). A company with an individual's PAN is a red flag.
+  - id: CON-005
+    title: Legal name mismatch across sources
+    category: consistency
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S5
+    rationale: Benign variants are normalised away first; what remains (score < 80) means different entities.
+  - id: CON-006
+    title: Legal name ambiguous across sources
+    category: consistency
+    severity: WARN
+    resolver: internal
+    blocks_approval: true
+    stage: S5
+    rationale: Score 80-95 and the adjudicator (LLM, or offline mode) could not confirm it is the same entity.
+  - id: CON-007
+    title: Bank account holder differs from vendor name
+    category: consistency
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S5
+    rationale: Paying an account held by someone else is the core payment-fraud risk.
+  - id: CON-008
+    title: Bank letter too old or future-dated
+    category: consistency
+    severity: WARN
+    resolver: vendor
+    blocks_approval: true
+    stage: S5
+    rationale: Bank proof must be recent (policy max age) so it reflects the account's current state.
+  - id: CON-009
+    title: Document value differs from form
+    category: consistency
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S5
+    rationale: An ID or account number on a document must equal the one typed on the form.
+  - id: CON-010
+    title: Bank country differs from vendor country
+    category: consistency
+    severity: HIGH
+    resolver: vendor
+    blocks_approval: true
+    stage: S5
+    rationale: Cross-border payouts to a domestic vendor need a business reason and a different approval path.
+  - id: REG-001
+    title: GSTIN not active (simulated registry)
+    category: registry
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S5
+    rationale: A cancelled or suspended GST registration cannot issue valid tax invoices.
+  - id: REG-002
+    title: Registry legal name mismatch (simulated registry)
+    category: registry
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S5
+    rationale: The tax authority's record names a different entity.
+  - id: REG-003
+    title: Bank account holder mismatch (simulated bank verification)
+    category: registry
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S5
+    rationale: The bank says the account belongs to someone else (penny-drop style check).
+  - id: REG-004
+    title: Not found in simulated registry
+    category: registry
+    severity: WARN
+    resolver: internal
+    blocks_approval: false
+    stage: S5
+    rationale: The simulated registry only knows synthetic demo entities; absence is noted, not punished.
+
+  # ---------------------------------------------------------------- S6 duplicates and fraud
+  - id: FRD-001
+    title: Identifier already used by a different vendor
+    category: fraud
+    severity: CRITICAL
+    resolver: internal
+    blocks_approval: true
+    stage: S6
+    rationale: The same PAN, GSTIN, EIN or bank account under a different legal name is the ghost/duplicate vendor pattern.
+  - id: FRD-002
+    title: Possible duplicate of an existing vendor
+    category: fraud
+    severity: WARN
+    resolver: internal
+    blocks_approval: true
+    stage: S6
+    rationale: A near-identical name with different bank details may be a duplicate record or an impersonation.
+  - id: FRD-003
+    title: Bank or tax details changed on resubmission
+    category: fraud
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S6
+    rationale: Changing payment details that nobody asked to change is the classic bank-change fraud pattern.
+  - id: FRD-004
+    title: Free email domain for a business
+    category: fraud
+    severity: WARN
+    resolver: vendor
+    blocks_approval: false
+    stage: S6
+    rationale: Registered businesses normally use a company domain; free mail is easy to create anonymously.
+  - id: FRD-005
+    title: Email domain unrelated to website
+    category: fraud
+    severity: WARN
+    resolver: vendor
+    blocks_approval: false
+    stage: S6
+    rationale: A contact address on a different domain from the stated website weakens the link to the business.
+  - id: FRD-006
+    title: Vendor already exists in master
+    category: fraud
+    severity: WARN
+    resolver: internal
+    blocks_approval: true
+    stage: S6
+    rationale: Same identifiers and same name as an existing vendor, so approving would create a duplicate record.
+  - id: POL-001
+    title: Too many failed resubmissions
+    category: policy
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S6
+    rationale: Repeated failed attempts suggest probing; the policy rejects after the configured limit.
+
+  # ---------------------------------------------------------------- S7 sanctions
+  - id: SAN-001
+    title: Strong sanctions match (OFAC SDN)
+    category: sanctions
+    severity: CRITICAL
+    resolver: internal
+    blocks_approval: true
+    stage: S7
+    rationale: Paying an SDN-listed party is prohibited. Deterministic fuzzy score >= strong threshold.
+  - id: SAN-002
+    title: Possible sanctions match
+    category: sanctions
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S7
+    rationale: Score between the possible and strong thresholds; a human must compare details (address, dates, program).
+  - id: SAN-003
+    title: Match on non-SDN consolidated list
+    category: sanctions
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: S7
+    rationale: Non-SDN lists (e.g. sectoral sanctions) restrict specific dealings rather than all dealings; needs compliance review.
+
+  # ---------------------------------------------------------------- system
+  - id: SYS-001
+    title: Pipeline stage failed
+    category: system
+    severity: HIGH
+    resolver: internal
+    blocks_approval: true
+    stage: any
+    rationale: If any check could not run, the outcome is unknown, and unknown never means approved.

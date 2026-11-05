@@ -1,0 +1,43 @@
+{
+  "legal_name": "Silver Maple Robotics Inc",
+  "trade_name": "",
+  "country": "US",
+  "entity_type": "company",
+  "address": {
+    "line1": "198 Market St",
+    "city": "Columbus",
+    "state": "Ohio",
+    "postal_code": "69754"
+  },
+  "contact": {
+    "name": "Accounts Payable",
+    "email": "ap@silvermaple.example",
+    "phone": "+1 555 0159"
+  },
+  "website": "https://www.silvermaple.example",
+  "tax": {
+    "ein": "81-4571684"
+  },
+  "bank": {
+    "account_holder": "Silver Maple Robotics Inc",
+    "account_number": "514253317207",
+    "bank_name": "Scioto Valley Bank",
+    "currency": "USD",
+    "bank_country": "US",
+    "routing_number": "043968456"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "w9",
+      "filename": "w9.pdf"
+    },
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    }
+  ]
+}

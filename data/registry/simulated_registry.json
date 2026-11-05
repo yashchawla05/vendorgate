@@ -1,0 +1,345 @@
+{
+  "_note": "SIMULATED registry for the demo. Not a real GST portal or bank lookup.",
+  "gstins": {
+    "27ZZXCM1492D1ZZ": {
+      "status": "Active",
+      "legal_name": "MERIDIAN FACILITY SERVICES PRIVATE LIMITED",
+      "state": "Maharashtra",
+      "registered_on": "2022-06-25"
+    },
+    "29ZZNCS4877K1Z9": {
+      "status": "Active",
+      "legal_name": "SAFFRON CIRCUIT TECHNOLOGIES PRIVATE LIMITED",
+      "state": "Karnataka",
+      "registered_on": "2022-06-18"
+    },
+    "07ZZOFB2920G1ZI": {
+      "status": "Active",
+      "legal_name": "BANYAN LEAF LOGISTICS LLP",
+      "state": "Delhi",
+      "registered_on": "2019-10-31"
+    },
+    "33ZZUPR1909Q1ZS": {
+      "status": "Active",
+      "legal_name": "KAVYA RAGHUNATHAN",
+      "state": "Tamil Nadu",
+      "registered_on": "2018-11-12"
+    },
+    "32ZZYCC6546K1ZX": {
+      "status": "Active",
+      "legal_name": "COASTAL BREW SUPPLIES PRIVATE LIMITED",
+      "state": "Kerala",
+      "registered_on": "2022-02-28"
+    },
+    "24ZZRCQ1826X1Z8": {
+      "status": "Active",
+      "legal_name": "QUARRY RIDGE HARDWARE PRIVATE LIMITED",
+      "state": "Gujarat",
+      "registered_on": "2018-08-25"
+    },
+    "36ZZXCR5988S1ZJ": {
+      "status": "Active",
+      "legal_name": "REDWOOD VALLEY ANALYTICS PRIVATE LIMITED",
+      "state": "Telangana",
+      "registered_on": "2022-09-09"
+    },
+    "06ZZZCL0272G1Z4": {
+      "status": "Active",
+      "legal_name": "LUMEN GLASSWORKS PRIVATE LIMITED",
+      "state": "Haryana",
+      "registered_on": "2023-03-07"
+    },
+    "29ZZSCK1133Y1Z9": {
+      "status": "Active",
+      "legal_name": "KESTREL ANALYTICS PRIVATE LIMITED",
+      "state": "Karnataka",
+      "registered_on": "2018-08-13"
+    },
+    "27ZZQCB7542N1ZT": {
+      "status": "Active",
+      "legal_name": "BRIGHTLINE COMPONENTS PRIVATE LIMITED",
+      "state": "Maharashtra",
+      "registered_on": "2019-05-18"
+    },
+    "27ZZFCS8412Q1ZM": {
+      "status": "Active",
+      "legal_name": "SILVERLINE OFFICE SUPPLIES PRIVATE LIMITED",
+      "state": "Maharashtra",
+      "registered_on": "2020-10-20"
+    },
+    "33ZZAFL3759F1ZE": {
+      "status": "Active",
+      "legal_name": "LOTUS LANE ORGANICS LLP",
+      "state": "Tamil Nadu",
+      "registered_on": "2023-11-09"
+    },
+    "29ZZUFJ4505Y1ZW": {
+      "status": "Active",
+      "legal_name": "JUNIPER GROVE FARMS LLP",
+      "state": "Karnataka",
+      "registered_on": "2019-02-11"
+    },
+    "24ZZCCN7272P1ZU": {
+      "status": "Active",
+      "legal_name": "NEPTUNE MARITIME PRIVATE LIMITED",
+      "state": "Gujarat",
+      "registered_on": "2023-09-15"
+    },
+    "09ZZYCA0214K1ZB": {
+      "status": "Active",
+      "legal_name": "AMBERLEAF TEXTILES PRIVATE LIMITED",
+      "state": "Uttar Pradesh",
+      "registered_on": "2019-11-26"
+    },
+    "27ZZHCC0363E1ZV": {
+      "status": "Active",
+      "legal_name": "COPPERLINE ENGINEERING PRIVATE LIMITED",
+      "state": "Maharashtra",
+      "registered_on": "2020-01-21"
+    },
+    "19ZZIFM9792C1ZO": {
+      "status": "Active",
+      "legal_name": "MONSOON MEDIA LLP",
+      "state": "West Bengal",
+      "registered_on": "2017-08-04"
+    },
+    "36ZZSCP7625H1ZR": {
+      "status": "Active",
+      "legal_name": "PALISADE SECURITY SYSTEMS PRIVATE LIMITED",
+      "state": "Telangana",
+      "registered_on": "2022-03-25"
+    },
+    "29ZZRCJ5660L1ZL": {
+      "status": "Active",
+      "legal_name": "JUNIPER LABS PRIVATE LIMITED",
+      "state": "Karnataka",
+      "registered_on": "2017-12-18"
+    },
+    "07ZZOCM4906F1Z9": {
+      "status": "Active",
+      "legal_name": "MARIGOLD EVENT SERVICES PRIVATE LIMITED",
+      "state": "Delhi",
+      "registered_on": "2017-10-16"
+    },
+    "06ZZKCI4721X1ZL": {
+      "status": "Active",
+      "legal_name": "IRONBARK TOOLS PRIVATE LIMITED",
+      "state": "Haryana",
+      "registered_on": "2021-04-27"
+    },
+    "24ZZHCS6281G1Z4": {
+      "status": "Cancelled",
+      "legal_name": "SALTMARSH CHEMICALS PRIVATE LIMITED",
+      "state": "Gujarat",
+      "registered_on": "2021-11-21"
+    },
+    "24ZZRCQ1826X2Z7": {
+      "status": "Active",
+      "legal_name": "VERTEX PRIME SUPPLIES PRIVATE LIMITED",
+      "state": "Gujarat",
+      "registered_on": "2022-08-19"
+    },
+    "36ZZGCR8602J1Z1": {
+      "status": "Active",
+      "legal_name": "REDWOOD VALLEY ANALYTICS PRIVATE LIMITED",
+      "state": "Telangana",
+      "registered_on": "2022-03-24"
+    },
+    "33ZZFCK2829F1ZN": {
+      "status": "Active",
+      "legal_name": "KINGFISHER PRINT WORKS PRIVATE LIMITED",
+      "state": "Tamil Nadu",
+      "registered_on": "2018-06-03"
+    },
+    "27ZZSCM1087M1ZM": {
+      "status": "Active",
+      "legal_name": "MARBLEWOOD INTERIORS PRIVATE LIMITED",
+      "state": "Maharashtra",
+      "registered_on": "2019-02-02"
+    },
+    "24ZZCCI3762O1Z6": {
+      "status": "Active",
+      "legal_name": "INDIGO REEF TEXTILES PRIVATE LIMITED",
+      "state": "Gujarat",
+      "registered_on": "2019-11-17"
+    }
+  },
+  "bank_accounts": {
+    "HDFC0SYN193:15076170215": {
+      "holder_name": "MERIDIAN FACILITY SERVICES PRIVATE LIMITED",
+      "bank_name": "HDFC Bank"
+    },
+    "ICIC0SYN918:87162877901": {
+      "holder_name": "SAFFRON CIRCUIT TECHNOLOGIES PRIVATE LIMITED",
+      "bank_name": "ICICI Bank"
+    },
+    "SBIN0SYN410:60945576206538": {
+      "holder_name": "BANYAN LEAF LOGISTICS LLP",
+      "bank_name": "State Bank of India"
+    },
+    "CNRB0SYN754:54517929290": {
+      "holder_name": "NILGIRI STATIONERS",
+      "bank_name": "Canara Bank"
+    },
+    "FDRL0SYN601:32100630600871": {
+      "holder_name": "COASTAL BREW SUPPLIES PRIVATE LIMITED",
+      "bank_name": "Federal Bank"
+    },
+    "BARB0SYN858:86520746604": {
+      "holder_name": "QUARRY RIDGE HARDWARE PRIVATE LIMITED",
+      "bank_name": "Bank of Baroda"
+    },
+    "UTIB0SYN917:52777684949": {
+      "holder_name": "REDWOOD VALLEY ANALYTICS PRIVATE LIMITED",
+      "bank_name": "Axis Bank"
+    },
+    "KKBK0SYN940:35206595541": {
+      "holder_name": "LUMEN GLASSWORKS PRIVATE LIMITED",
+      "bank_name": "Kotak Mahindra Bank"
+    },
+    "037245731:380645203025": {
+      "holder_name": "PINECREST SOFTWARE LLC",
+      "bank_name": "Brandywine Federal Bank"
+    },
+    "070750348:9472005159": {
+      "holder_name": "GRANITE BAY PACKAGING INC",
+      "bank_name": "Sierra Pacific Bank"
+    },
+    "68-69-32:26733542": {
+      "holder_name": "HARROW & FINCH CONSULTING LTD",
+      "bank_name": "Pennine Mutual Bank"
+    },
+    "89-28-94:52116983": {
+      "holder_name": "THISTLE DATA SERVICES LTD",
+      "bank_name": "Forth Commercial Bank"
+    },
+    "HDFC0SYN191:98826426187335": {
+      "holder_name": "KESTREL ANALYTICS PVT LTD",
+      "bank_name": "HDFC Bank"
+    },
+    "UTIB0SYN266:76844666588": {
+      "holder_name": "BRIGHTLINE COMPONENTS PRIVATE LIMITED",
+      "bank_name": "Axis Bank"
+    },
+    "036248629:6138021402": {
+      "holder_name": "HARBORVIEW LOGISTICS LLC",
+      "bank_name": "Brandywine Federal Bank"
+    },
+    "ICIC0SYN998:434632443909": {
+      "holder_name": "LOTUS LANE ORGANICS LLP",
+      "bank_name": "ICICI Bank"
+    },
+    "CNRB0SYN895:18423427196261": {
+      "holder_name": "JUNIPER GROVE FARMS LLP",
+      "bank_name": "Canara Bank"
+    },
+    "CNRB0SYN895:329133415096": {
+      "holder_name": "JUNIPER GROVE FARMS LLP",
+      "bank_name": "Canara Bank"
+    },
+    "BARB0SYN926:38260609744037": {
+      "holder_name": "NEPTUNE MARITIME PRIVATE LIMITED",
+      "bank_name": "Bank of Baroda"
+    },
+    "PUNB0SYN962:69462567511460": {
+      "holder_name": "AMBERLEAF TEXTILES PRIVATE LIMITED",
+      "bank_name": "Punjab National Bank"
+    },
+    "MAHB0SYN556:51659422266577": {
+      "holder_name": "COPPERLINE ENGINEERING PRIVATE LIMITED",
+      "bank_name": "Bank of Maharashtra"
+    },
+    "UCBA0SYN462:34000538038911": {
+      "holder_name": "MONSOON MEDIA LLP",
+      "bank_name": "UCO Bank"
+    },
+    "CNRB0SYN446:755921294579": {
+      "holder_name": "TAMARIND FOODS",
+      "bank_name": "Canara Bank"
+    },
+    "065060030:322610704669": {
+      "holder_name": "BLUEFIN FREIGHT INC",
+      "bank_name": "Puget Harbor Bank"
+    },
+    "094841806:558011703203": {
+      "holder_name": "CEDAR HOLLOW DESIGN LLC",
+      "bank_name": "Willamette Trust Bank"
+    },
+    "78-18-54:38742423": {
+      "holder_name": "WREN & OAK INTERIORS LTD",
+      "bank_name": "Severn Commercial Bank"
+    },
+    "IDIB0SYN543:80433277982546": {
+      "holder_name": "PALISADE SECURITY SYSTEMS PRIVATE LIMITED",
+      "bank_name": "Indian Bank"
+    },
+    "KKBK0SYN436:195766148619": {
+      "holder_name": "JUNIPER LABS PRIVATE LIMITED",
+      "bank_name": "Kotak Mahindra Bank"
+    },
+    "45-26-57:79378319": {
+      "holder_name": "NORTHGATE ADVISORY LTD",
+      "bank_name": "Irwell Bank"
+    },
+    "YESB0SYN820:40848449527843": {
+      "holder_name": "MARIGOLD EVENT SERVICES PRIVATE LIMITED",
+      "bank_name": "Yes Bank"
+    },
+    "PUNB0SYN816:978489409364": {
+      "holder_name": "IRONBARK TOOLS PRIVATE LIMITED",
+      "bank_name": "Punjab National Bank"
+    },
+    "BARB0SYN523:55356141226109": {
+      "holder_name": "SALTMARSH CHEMICALS PRIVATE LIMITED",
+      "bank_name": "Bank of Baroda"
+    },
+    "SBIN0SYN985:54293910563147": {
+      "holder_name": "VERTEX PRIME SUPPLIES PRIVATE LIMITED",
+      "bank_name": "State Bank of India"
+    },
+    "HDFC0SYN714:42223026362": {
+      "holder_name": "REDWOOD VALLEY ANALYTICS PRIVATE LIMITED",
+      "bank_name": "HDFC Bank"
+    },
+    "IOBA0SYN466:99473829039579": {
+      "holder_name": "KINGFISHER PRINT WORKS PRIVATE LIMITED",
+      "bank_name": "Indian Overseas Bank"
+    },
+    "ICIC0SYN820:79795388011188": {
+      "holder_name": "MARBLEWOOD INTERIORS PRIVATE LIMITED",
+      "bank_name": "ICICI Bank"
+    },
+    "IOBA0SYN760:34517072558626": {
+      "holder_name": "PEACOCK SPICE TRADERS",
+      "bank_name": "Indian Overseas Bank"
+    },
+    "KKBK0SYN569:971119232252": {
+      "holder_name": "INDIGO REEF TEXTILES PRIVATE LIMITED",
+      "bank_name": "Kotak Mahindra Bank"
+    },
+    "014611906:445961663012": {
+      "holder_name": "CANYON RIDGE SUPPLY LLC",
+      "bank_name": "Saguaro Federal Bank"
+    },
+    "043968455:514253317207": {
+      "holder_name": "SILVER MAPLE ROBOTICS INC",
+      "bank_name": "Scioto Valley Bank"
+    },
+    "032895571:6477936666": {
+      "holder_name": "BAYSHORE ANALYTICS LLC",
+      "bank_name": "Gulf Harbor Bank"
+    },
+    "95-91-43:49663548": {
+      "holder_name": "ASHDOWN LEDGER LTD",
+      "bank_name": "South Downs Bank"
+    },
+    "97-94-38:79519207": {
+      "holder_name": "FENWICK TRADING LTD",
+      "bank_name": "Tamar Commercial Bank"
+    },
+    "40-73-89:70920443": {
+      "holder_name": "BRACKENFIELD STUDIOS LTD",
+      "bank_name": "Peak District Bank"
+    }
+  }
+}

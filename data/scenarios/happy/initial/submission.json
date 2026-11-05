@@ -1,0 +1,53 @@
+{
+  "legal_name": "Kestrel Analytics Pvt. Ltd.",
+  "trade_name": "Kestrel Analytics",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "36, Ring Road",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "postal_code": "909717"
+  },
+  "contact": {
+    "name": "Accounts Team",
+    "email": "accounts@kestrelanalytics.example",
+    "phone": "+91 00000 18601"
+  },
+  "website": "https://www.kestrelanalytics.example",
+  "tax": {
+    "pan": "ZZSCK1133Y",
+    "gstin": "29ZZSCK1133Y1Z9",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Kestrel Analytics Pvt Ltd",
+    "account_number": "98826426187335",
+    "bank_name": "HDFC Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "HDFC0SYN191"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

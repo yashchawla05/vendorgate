@@ -1,0 +1,13 @@
+{
+  "id": "gb3_stale_bank_letter",
+  "country": "GB",
+  "title": "UK 3: Bank letter older than 90 days",
+  "story": "Everything matches, but the bank letter is 130 days old; the policy accepts letters up to 90 days.",
+  "expect": {
+    "status": "PENDING",
+    "sub_status": "awaiting_vendor",
+    "rules": [
+      "CON-008"
+    ]
+  }
+}

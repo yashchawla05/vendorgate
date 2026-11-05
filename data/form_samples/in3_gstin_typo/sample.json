@@ -1,0 +1,13 @@
+{
+  "id": "in3_gstin_typo",
+  "country": "IN",
+  "title": "India 3: GSTIN typed wrong",
+  "story": "The GSTIN on the form has a wrong last character, so its checksum fails. The GST certificate shows the right number; the vendor is asked to correct it.",
+  "expect": {
+    "status": "PENDING",
+    "sub_status": "awaiting_vendor",
+    "rules": [
+      "FMT-GSTIN"
+    ]
+  }
+}

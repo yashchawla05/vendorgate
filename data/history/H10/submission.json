@@ -1,0 +1,43 @@
+{
+  "legal_name": "Northgate Advisory Ltd",
+  "trade_name": "",
+  "country": "GB",
+  "entity_type": "company",
+  "address": {
+    "line1": "47 High Street",
+    "city": "Manchester",
+    "state": "England",
+    "postal_code": "LS1 4DY"
+  },
+  "contact": {
+    "name": "Finance Team",
+    "email": "finance@northgateadvisory.example",
+    "phone": "+44 7700 900184"
+  },
+  "website": "https://www.northgateadvisory.example",
+  "tax": {
+    "company_number": "56968751"
+  },
+  "bank": {
+    "account_holder": "Northgate Advisory Ltd",
+    "account_number": "79378319",
+    "bank_name": "Irwell Bank",
+    "currency": "GBP",
+    "bank_country": "GB",
+    "sort_code": "45-26-57"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    },
+    {
+      "slot": "company_registration",
+      "filename": "company_registration.pdf"
+    }
+  ]
+}

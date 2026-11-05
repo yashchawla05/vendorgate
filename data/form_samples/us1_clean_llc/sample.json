@@ -1,0 +1,9 @@
+{
+  "id": "us1_clean_llc",
+  "country": "US",
+  "title": "US 1: Clean LLC",
+  "story": "W-9 and bank confirmation letter that match the form.",
+  "expect": {
+    "status": "APPROVED"
+  }
+}

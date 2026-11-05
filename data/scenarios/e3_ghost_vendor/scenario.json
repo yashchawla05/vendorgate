@@ -1,0 +1,19 @@
+{
+  "id": "e3_ghost_vendor",
+  "title": "E3: Ghost vendor",
+  "story": "Bank account holder differs from the legal name, and the account number already belongs to an approved vendor with a different legal name. Contact uses a free email domain.",
+  "steps": [
+    {
+      "dir": "initial",
+      "kind": "submit",
+      "expect": {
+        "status": "REJECTED",
+        "rules": [
+          "FRD-001",
+          "CON-007",
+          "FRD-004"
+        ]
+      }
+    }
+  ]
+}

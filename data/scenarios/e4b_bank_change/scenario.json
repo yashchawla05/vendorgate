@@ -1,0 +1,30 @@
+{
+  "id": "e4b_bank_change",
+  "title": "E4 variant: silent bank-account change",
+  "story": "Same start, but on resubmission the bank account number changes even though nobody asked for it - a classic bank-change fraud pattern.",
+  "steps": [
+    {
+      "dir": "initial",
+      "kind": "submit",
+      "expect": {
+        "status": "PENDING",
+        "sub_status": "awaiting_vendor",
+        "rules": [
+          "COMP-002",
+          "FMT-IFSC"
+        ]
+      }
+    },
+    {
+      "dir": "resubmit",
+      "kind": "resubmit",
+      "expect": {
+        "status": "PENDING",
+        "sub_status": "awaiting_internal_review",
+        "rules": [
+          "FRD-003"
+        ]
+      }
+    }
+  ]
+}

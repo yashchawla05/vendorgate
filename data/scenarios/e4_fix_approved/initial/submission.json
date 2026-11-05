@@ -1,0 +1,49 @@
+{
+  "legal_name": "Lotus Lane Organics LLP",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "llp_partnership",
+  "address": {
+    "line1": "137, Industrial Estate",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "postal_code": "826570"
+  },
+  "contact": {
+    "name": "Procurement Desk",
+    "email": "accounts@lotuslane.example",
+    "phone": "+91 00000 88691"
+  },
+  "website": "https://www.lotuslane.example",
+  "tax": {
+    "pan": "ZZAFL3759F",
+    "gstin": "33ZZAFL3759F1ZE",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Lotus Lane Organics LLP",
+    "account_number": "434632443909",
+    "bank_name": "ICICI Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "ICICOSYN998"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

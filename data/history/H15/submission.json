@@ -1,0 +1,53 @@
+{
+  "legal_name": "Redwood Valley Analytics Pvt Ltd",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "155, Ring Road",
+    "city": "Secunderabad",
+    "state": "Telangana",
+    "postal_code": "923773"
+  },
+  "contact": {
+    "name": "Accounts Team",
+    "email": "accounts@redwoodvalley.example",
+    "phone": "+91 00000 18288"
+  },
+  "website": "https://www.redwoodvalley.example",
+  "tax": {
+    "pan": "ZZGCR8602J",
+    "gstin": "36ZZGCR8602J1Z1",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Redwood Valley Analytics Private Limited",
+    "account_number": "42223026362",
+    "bank_name": "HDFC Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "HDFC0SYN714"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

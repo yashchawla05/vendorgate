@@ -1,0 +1,43 @@
+{
+  "legal_name": "Ashdown Ledger Ltd",
+  "trade_name": "",
+  "country": "GB",
+  "entity_type": "company",
+  "address": {
+    "line1": "85 Mill Lane",
+    "city": "Brighton",
+    "state": "England",
+    "postal_code": "EH1 2AB"
+  },
+  "contact": {
+    "name": "Finance Team",
+    "email": "finance@ashdownledger.example",
+    "phone": "+44 7700 900824"
+  },
+  "website": "https://www.ashdownledger.example",
+  "tax": {
+    "company_number": "18622069"
+  },
+  "bank": {
+    "account_holder": "Ashdown Ledger Ltd",
+    "account_number": "49663548",
+    "bank_name": "South Downs Bank",
+    "currency": "GBP",
+    "bank_country": "GB",
+    "sort_code": "95-91-43"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    },
+    {
+      "slot": "company_registration",
+      "filename": "company_registration.pdf"
+    }
+  ]
+}

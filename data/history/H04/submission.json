@@ -1,0 +1,49 @@
+{
+  "legal_name": "Arjun Menon",
+  "trade_name": "Tamarind Foods",
+  "country": "IN",
+  "entity_type": "proprietorship",
+  "address": {
+    "line1": "61, Industrial Estate",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "postal_code": "938292"
+  },
+  "contact": {
+    "name": "Arjun Menon",
+    "email": "accounts@tamarindfoods.example",
+    "phone": "+91 00000 86031"
+  },
+  "website": "https://www.tamarindfoods.example",
+  "tax": {
+    "pan": "ZZMPM3176I",
+    "gstin": "",
+    "no_gst_declaration": true
+  },
+  "bank": {
+    "account_holder": "Tamarind Foods",
+    "account_number": "755921294579",
+    "bank_name": "Canara Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "CNRB0SYN446"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "no_gst_declaration",
+      "filename": "no_gst_declaration.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    }
+  ]
+}

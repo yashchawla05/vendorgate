@@ -1,0 +1,43 @@
+{
+  "legal_name": "Bayshore Analytics LLC",
+  "trade_name": "",
+  "country": "US",
+  "entity_type": "company",
+  "address": {
+    "line1": "5773 Harbor Way",
+    "city": "Tampa",
+    "state": "Florida",
+    "postal_code": "67595"
+  },
+  "contact": {
+    "name": "Accounts Payable",
+    "email": "ap@bayshoreanalytics.example",
+    "phone": "+1 555 0173"
+  },
+  "website": "https://www.bayshoreanalytics.example",
+  "tax": {
+    "ein": "12-7143688"
+  },
+  "bank": {
+    "account_holder": "Bayshore Analytics LLC",
+    "account_number": "6477936666",
+    "bank_name": "Gulf Harbor Bank",
+    "currency": "USD",
+    "bank_country": "US",
+    "routing_number": "032895571"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "w9",
+      "filename": "w9.pdf"
+    },
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    }
+  ]
+}

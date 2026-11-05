@@ -1,0 +1,14 @@
+{
+  "id": "happy",
+  "title": "Happy path: clean Indian company",
+  "story": "All documents agree. The form says 'Pvt. Ltd.', the certificate says 'Private Limited' and the bank says 'Pvt Ltd' - benign variants that must not be flagged.",
+  "steps": [
+    {
+      "dir": "initial",
+      "kind": "submit",
+      "expect": {
+        "status": "APPROVED"
+      }
+    }
+  ]
+}

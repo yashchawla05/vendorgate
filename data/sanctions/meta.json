@@ -1,0 +1,27 @@
+{
+  "source": "U.S. Department of the Treasury, OFAC Sanctions List Service",
+  "source_url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/",
+  "license": "U.S. Government work, public domain (17 U.S.C. 105)",
+  "fetched_at": "2026-11-01T17:32:30+00:00",
+  "coverage": "US lists only (SDN + Consolidated non-SDN). Not UN, EU, UK HMT or Indian lists.",
+  "files": {
+    "SDN.CSV": {
+      "bytes": 5750799,
+      "sha256": "5f240bed79d504e7a54788b4cd1c7f84e6afa56cd4778653b70b0771b6a8509d"
+    },
+    "ALT.CSV": {
+      "bytes": 1064299,
+      "sha256": "b0e2811fbb49ba6e9941a497e6b05fa2c9037b45ae7923196a01e2363a402259"
+    },
+    "CONS_PRIM.CSV": {
+      "bytes": 268508,
+      "sha256": "48068ff381b20ba05db297e5744b790e69e9921c738ce88efcaed7e0c3d55033"
+    },
+    "CONS_ALT.CSV": {
+      "bytes": 69622,
+      "sha256": "106ba0e33579c5d20693e414ad66a9145329f1db012a18c3bdc8f84491a32b81"
+    }
+  },
+  "publish_date": "2026-10-28",
+  "record_count": 19484
+}

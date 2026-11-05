@@ -1,0 +1,9 @@
+{
+  "id": "in1_clean_company",
+  "country": "IN",
+  "title": "India 1: Clean private company",
+  "story": "GST-registered company with PAN card, GST certificate, bank letter and incorporation certificate, all agreeing with the form.",
+  "expect": {
+    "status": "APPROVED"
+  }
+}

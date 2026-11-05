@@ -1,0 +1,13 @@
+{
+  "id": "us3_ein_mismatch",
+  "country": "US",
+  "title": "US 3: EIN on the W-9 differs from the form",
+  "story": "Both EINs are well-formed, but the one typed on the form is not the one on the signed W-9.",
+  "expect": {
+    "status": "PENDING",
+    "sub_status": "awaiting_vendor",
+    "rules": [
+      "CON-009"
+    ]
+  }
+}

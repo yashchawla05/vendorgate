@@ -1,0 +1,4444 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "run_at": "2026-11-03T11:42:10",
+  "documents": [
+    {
+      "path": "eval/docs/in_co_bank_letter_A.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "Orchid Bay Ceramics Private Limited",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "137189246387",
+          "got": "137189246387",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "CNRB0SYN201",
+          "got": "CNRB0SYN201",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Canara Bank",
+          "got": "Canara Bank",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-11",
+          "got": "11 October 2026",
+          "confidence": 0.98,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2131
+    },
+    {
+      "path": "eval/docs/in_co_bank_letter_B.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "Orchid Bay Ceramics Private Limited",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "137189246387",
+          "got": "137189246387",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "CNRB0SYN201",
+          "got": "CNRB0SYN201",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Canara Bank",
+          "got": "Canara Bank",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-21",
+          "got": "21 October 2026",
+          "confidence": 0.98,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1610
+    },
+    {
+      "path": "eval/docs/in_co_cancelled_cheque_A.pdf",
+      "true_type": "cancelled_cheque",
+      "layout": "A",
+      "pred_type": "cancelled_cheque",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "ORCHID BAY CERAMICS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "137189246387",
+          "got": "137189246387",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "CNRB0SYN201",
+          "got": "CNRB0SYN201",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Canara Bank",
+          "got": "Canara Bank",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1503
+    },
+    {
+      "path": "eval/docs/in_co_cancelled_cheque_A_scan.jpg",
+      "true_type": "cancelled_cheque",
+      "layout": "A-scan",
+      "pred_type": "cancelled_cheque",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "ORCHID BAY CERAMICS PRIVATE LIMITED",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "137189246387",
+          "got": "137189246387",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "CNRB0SYN201",
+          "got": "CNRB0SYN201",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Canara Bank",
+          "got": "Canara Bank",
+          "confidence": 0.98,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2298
+    },
+    {
+      "path": "eval/docs/in_co_cancelled_cheque_B.pdf",
+      "true_type": "cancelled_cheque",
+      "layout": "B",
+      "pred_type": "cancelled_cheque",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "Orchid Bay Ceramics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "137189246387",
+          "got": "137189246387",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "CNRB0SYN201",
+          "got": "CNRB0SYN201",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Canara Bank",
+          "got": "Canara Bank",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1760
+    },
+    {
+      "path": "eval/docs/in_co_gst_certificate_A.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "29ZZACO7703M1ZZ",
+          "got": "29ZZACO7703M1ZZ",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "Orchid Bay Ceramics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "48, Park Street, Mangaluru, Karnataka 163910",
+          "got": "48, Park Street, Mangaluru, Karnataka 163910",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2018-06-02",
+          "got": "02/06/2018",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1644
+    },
+    {
+      "path": "eval/docs/in_co_gst_certificate_B.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "29ZZACO7703M1ZZ",
+          "got": "29ZZACO7703M1ZZ",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "Orchid Bay Ceramics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "48, Park Street, Mangaluru, Karnataka 163910",
+          "got": "48, Park Street, Mangaluru, Karnataka 163910",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2018-06-02",
+          "got": "2 June 2018",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1708
+    },
+    {
+      "path": "eval/docs/in_co_gst_certificate_B_scan.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B-scan",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "29ZZACO7703M1ZZ",
+          "got": "29ZZACO7703M1ZZ",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "Orchid Bay Ceramics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "48, Park Street, Mangaluru, Karnataka 163910",
+          "got": "48, Park Street, Mangaluru, Karnataka 163910",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2018-06-02",
+          "got": "2 June 2018",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2285
+    },
+    {
+      "path": "eval/docs/in_co_incorporation_certificate_A.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "ORCHID BAY CERAMICS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U72200KA2009PTC791867",
+          "got": "U72200KA2009PTC791867",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2009-08-11",
+          "got": "11 August 2009",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1369
+    },
+    {
+      "path": "eval/docs/in_co_incorporation_certificate_B.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "Orchid Bay Ceramics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U72200KA2009PTC791867",
+          "got": "U72200KA2009PTC791867",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2009-08-11",
+          "got": "11/08/2009",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1371
+    },
+    {
+      "path": "eval/docs/in_co_pan_card_A.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZACO7703M",
+          "got": "ZZACO7703M",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "ORCHID BAY CERAMICS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2009-08-11",
+          "got": "11/08/2009",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 43680
+    },
+    {
+      "path": "eval/docs/in_co_pan_card_A_scan.jpg",
+      "true_type": "pan_card",
+      "layout": "A-scan",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZACO7703M",
+          "got": "ZZACO7703M",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "ORCHID BAY CERAMICS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2009-08-11",
+          "got": "11/08/2009",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2610
+    },
+    {
+      "path": "eval/docs/in_co_pan_card_B.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZACO7703M",
+          "got": "ZZACO7703M",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Orchid Bay Ceramics Private Limited",
+          "got": "Orchid Bay Ceramics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2009-08-11",
+          "got": "11/08/2009",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1641
+    },
+    {
+      "path": "eval/docs/in_llp_bank_letter_A.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "Silver Oak Advisors LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "66158114745",
+          "got": "66158114745",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "KKBK0SYN449",
+          "got": "KKBK0SYN449",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Kotak Mahindra Bank",
+          "got": "Kotak Mahindra Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-20",
+          "got": "20 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1587
+    },
+    {
+      "path": "eval/docs/in_llp_bank_letter_B.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "Silver Oak Advisors LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "66158114745",
+          "got": "66158114745",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "KKBK0SYN449",
+          "got": "KKBK0SYN449",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Kotak Mahindra Bank",
+          "got": "Kotak Mahindra Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-18",
+          "got": "18 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1841
+    },
+    {
+      "path": "eval/docs/in_llp_cancelled_cheque_A.pdf",
+      "true_type": "cancelled_cheque",
+      "layout": "A",
+      "pred_type": "cancelled_cheque",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "SILVER OAK ADVISORS LLP",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "66158114745",
+          "got": "66158114745",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "KKBK0SYN449",
+          "got": "KKBK0SYN449",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Kotak Mahindra Bank",
+          "got": "Kotak Mahindra Bank",
+          "confidence": 0.98,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1328
+    },
+    {
+      "path": "eval/docs/in_llp_cancelled_cheque_B.pdf",
+      "true_type": "cancelled_cheque",
+      "layout": "B",
+      "pred_type": "cancelled_cheque",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "Silver Oak Advisors LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "66158114745",
+          "got": "66158114745",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "KKBK0SYN449",
+          "got": "KKBK0SYN449",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Kotak Mahindra Bank",
+          "got": "Kotak Mahindra Bank",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1631
+    },
+    {
+      "path": "eval/docs/in_llp_gst_certificate_A.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "27ZZEFS2338Z1Z2",
+          "got": "27ZZEFS2338Z1Z2",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "Silver Oak Advisors LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "71, Park Street, Thane, Maharashtra 277503",
+          "got": "71, Park Street, Thane, Maharashtra 277503",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2017-02-18",
+          "got": "18/02/2017",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Limited Liability Partnership",
+          "got": "Limited Liability Partnership",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 4258
+    },
+    {
+      "path": "eval/docs/in_llp_gst_certificate_B.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "27ZZEFS2338Z1Z2",
+          "got": "27ZZEFS2338Z1Z2",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "Silver Oak Advisors LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "71, Park Street, Thane, Maharashtra 277503",
+          "got": "71, Park Street, Thane, Maharashtra 277503",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2017-02-18",
+          "got": "18 February 2017",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Limited Liability Partnership",
+          "got": "Limited Liability Partnership",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1495
+    },
+    {
+      "path": "eval/docs/in_llp_incorporation_certificate_A.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "SILVER OAK ADVISORS LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "INZ-7749",
+          "got": "INZ-7749",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2011-12-25",
+          "got": "25 December 2011",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1345
+    },
+    {
+      "path": "eval/docs/in_llp_incorporation_certificate_B.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "Silver Oak Advisors LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "INZ-7749",
+          "got": "INZ-7749",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2011-12-25",
+          "got": "25/12/2011",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 42075
+    },
+    {
+      "path": "eval/docs/in_llp_pan_card_A.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZEFS2338Z",
+          "got": "ZZEFS2338Z",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "SILVER OAK ADVISORS LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2011-12-25",
+          "got": "25/12/2011",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2551
+    },
+    {
+      "path": "eval/docs/in_llp_pan_card_B.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZEFS2338Z",
+          "got": "ZZEFS2338Z",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Silver Oak Advisors LLP",
+          "got": "Silver Oak Advisors LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2011-12-25",
+          "got": "25/12/2011",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1397
+    },
+    {
+      "path": "eval/docs/uk_bank_letter_A.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Kestle & Moor Engineering Ltd",
+          "got": "Kestle & Moor Engineering Ltd",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "14919319",
+          "got": "14919319",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "sort_code",
+          "truth": "96-73-10",
+          "got": "96-73-10",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Midland Shires Bank",
+          "got": "Midland Shires Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-07",
+          "got": "7 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1815
+    },
+    {
+      "path": "eval/docs/uk_bank_letter_B.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Kestle & Moor Engineering Ltd",
+          "got": "Kestle & Moor Engineering Ltd",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "14919319",
+          "got": "14919319",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "sort_code",
+          "truth": "96-73-10",
+          "got": "96-73-10",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Midland Shires Bank",
+          "got": "Midland Shires Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-14",
+          "got": "14 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1812
+    },
+    {
+      "path": "eval/docs/uk_company_registration_certificate_A.pdf",
+      "true_type": "company_registration_certificate",
+      "layout": "A",
+      "pred_type": "company_registration_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Kestle & Moor Engineering Ltd",
+          "got": "KESTLE & MOOR ENGINEERING LTD",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "company_number",
+          "truth": "42345721",
+          "got": "42345721",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2018-09-02",
+          "got": "2 September 2018",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1497
+    },
+    {
+      "path": "eval/docs/uk_company_registration_certificate_B.pdf",
+      "true_type": "company_registration_certificate",
+      "layout": "B",
+      "pred_type": "company_registration_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Kestle & Moor Engineering Ltd",
+          "got": "Kestle & Moor Engineering Ltd",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "company_number",
+          "truth": "42345721",
+          "got": "42345721",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2018-09-02",
+          "got": "2 September 2018",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1662
+    },
+    {
+      "path": "eval/docs/us_bank_letter_A.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Prairie Gate Supplies Inc",
+          "got": "Prairie Gate Supplies Inc",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "438499548497",
+          "got": "438499548497",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "routing_number",
+          "truth": "075417709",
+          "got": "075417709",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Flint Hills Bank",
+          "got": "Flint Hills Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-20",
+          "got": "10/20/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1820
+    },
+    {
+      "path": "eval/docs/us_bank_letter_B.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Prairie Gate Supplies Inc",
+          "got": "Prairie Gate Supplies Inc",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "438499548497",
+          "got": "438499548497",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "routing_number",
+          "truth": "075417709",
+          "got": "075417709",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Flint Hills Bank",
+          "got": "Flint Hills Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-25",
+          "got": "10/25/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 4430
+    },
+    {
+      "path": "eval/docs/us_w9_A.pdf",
+      "true_type": "w9",
+      "layout": "A",
+      "pred_type": "w9",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "name",
+          "truth": "Prairie Gate Supplies Inc",
+          "got": "Prairie Gate Supplies Inc",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "tax_classification",
+          "truth": "C corporation",
+          "got": "C corporation",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ein",
+          "truth": "20-8048818",
+          "got": "20-8048818",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "6097 Commerce Dr, Wichita, Kansas 41072",
+          "got": "6097 Commerce Dr, Wichita, Kansas 41072",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "signature_date",
+          "truth": "2026-10-29",
+          "got": "10/29/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1801
+    },
+    {
+      "path": "eval/docs/us_w9_B.pdf",
+      "true_type": "w9",
+      "layout": "B",
+      "pred_type": "w9",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "name",
+          "truth": "Prairie Gate Supplies Inc",
+          "got": "Prairie Gate Supplies Inc",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "tax_classification",
+          "truth": "C corporation",
+          "got": "C corporation",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ein",
+          "truth": "20-8048818",
+          "got": "20-8048818",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "6097 Commerce Dr, Wichita, Kansas 41072",
+          "got": "6097 Commerce Dr, Wichita, Kansas 41072",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "signature_date",
+          "truth": "2026-10-29",
+          "got": "10/29/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 41837
+    },
+    {
+      "path": "history/H01/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Amberleaf Textiles Private Limited",
+          "got": "Amberleaf Textiles Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "69462567511460",
+          "got": "69462567511460",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "PUNB0SYN962",
+          "got": "PUNB0SYN962",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Punjab National Bank",
+          "got": "Punjab National Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-09-24",
+          "got": "24 September 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1199
+    },
+    {
+      "path": "history/H01/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "09ZZYCA0214K1ZB",
+          "got": "09ZZYCA0214K1ZB",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Amberleaf Textiles Private Limited",
+          "got": "Amberleaf Textiles Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "165, Park Street, Kanpur, Uttar Pradesh 417262",
+          "got": "165, Park Street, Kanpur, Uttar Pradesh 417262",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2019-11-26",
+          "got": "26/11/2019",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2602
+    },
+    {
+      "path": "history/H01/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Amberleaf Textiles Private Limited",
+          "got": "AMBERLEAF TEXTILES PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U52100UP2009PTC989596",
+          "got": "U52100UP2009PTC989596",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2009-12-03",
+          "got": "3 December 2009",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 3554
+    },
+    {
+      "path": "history/H01/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZYCA0214K",
+          "got": "ZZYCA0214K",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Amberleaf Textiles Private Limited",
+          "got": "AMBERLEAF TEXTILES PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2009-12-03",
+          "got": "03/12/2009",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1230
+    },
+    {
+      "path": "history/H02/bank_proof.pdf",
+      "true_type": "cancelled_cheque",
+      "layout": "B",
+      "pred_type": "cancelled_cheque",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Copperline Engineering Private Limited",
+          "got": "Copperline Engineering Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "51659422266577",
+          "got": "51659422266577",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "MAHB0SYN556",
+          "got": "MAHB0SYN556",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Bank of Maharashtra",
+          "got": "Bank of Maharashtra",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1394
+    },
+    {
+      "path": "history/H02/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "27ZZHCC0363E1ZV",
+          "got": "27ZZHCC0363E1ZV",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Copperline Engineering Private Limited",
+          "got": "Copperline Engineering Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "50, Park Street, Nashik, Maharashtra 341936",
+          "got": "50, Park Street, Nashik, Maharashtra 341936",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2020-01-21",
+          "got": "21 January 2020",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1478
+    },
+    {
+      "path": "history/H02/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Copperline Engineering Private Limited",
+          "got": "Copperline Engineering Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U74999MH2014PTC160400",
+          "got": "U74999MH2014PTC160400",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2014-07-15",
+          "got": "15/07/2014",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1166
+    },
+    {
+      "path": "history/H02/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZHCC0363E",
+          "got": "ZZHCC0363E",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Copperline Engineering Private Limited",
+          "got": "Copperline Engineering Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2014-07-15",
+          "got": "15/07/2014",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2679
+    },
+    {
+      "path": "history/H03/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Monsoon Media LLP",
+          "got": "Monsoon Media LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "34000538038911",
+          "got": "34000538038911",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "UCBA0SYN462",
+          "got": "UCBA0SYN462",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "UCO Bank",
+          "got": "UCO Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-09-15",
+          "got": "15 September 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2356
+    },
+    {
+      "path": "history/H03/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "19ZZIFM9792C1ZO",
+          "got": "19ZZIFM9792C1ZO",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Monsoon Media LLP",
+          "got": "Monsoon Media LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "14, Station Road, Kolkata, West Bengal 948969",
+          "got": "14, Station Road, Kolkata, West Bengal 948969",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2017-08-04",
+          "got": "4 August 2017",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Limited Liability Partnership",
+          "got": "Limited Liability Partnership",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 41672
+    },
+    {
+      "path": "history/H03/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Monsoon Media LLP",
+          "got": "Monsoon Media LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "DCH-2772",
+          "got": "DCH-2772",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2015-01-01",
+          "got": "01/01/2015",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1801
+    },
+    {
+      "path": "history/H03/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZIFM9792C",
+          "got": "ZZIFM9792C",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Monsoon Media LLP",
+          "got": "Monsoon Media LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2015-01-01",
+          "got": "01/01/2015",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2543
+    },
+    {
+      "path": "history/H04/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Tamarind Foods",
+          "got": "Tamarind Foods",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "755921294579",
+          "got": "755921294579",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "CNRB0SYN446",
+          "got": "CNRB0SYN446",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Canara Bank",
+          "got": "Canara Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-09-20",
+          "got": "20 September 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1615
+    },
+    {
+      "path": "history/H04/no_gst_declaration.pdf",
+      "true_type": "no_gst_declaration",
+      "layout": "B",
+      "pred_type": "no_gst_declaration",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "legal_name",
+          "truth": "Arjun Menon",
+          "got": "Arjun Menon",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "pan",
+          "truth": "ZZMPM3176I",
+          "got": "ZZMPM3176I",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "declaration_date",
+          "truth": "2026-10-05",
+          "got": "05/10/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 3090
+    },
+    {
+      "path": "history/H04/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZMPM3176I",
+          "got": "ZZMPM3176I",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Arjun Menon",
+          "got": "Arjun Menon",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2021-06-18",
+          "got": "18/06/2021",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1188
+    },
+    {
+      "path": "history/H05/bank_letter.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Bluefin Freight Inc",
+          "got": "Bluefin Freight Inc",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "322610704669",
+          "got": "322610704669",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "routing_number",
+          "truth": "065060030",
+          "got": "065060030",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Puget Harbor Bank",
+          "got": "Puget Harbor Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-02",
+          "got": "10/02/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1640
+    },
+    {
+      "path": "history/H05/w9.pdf",
+      "true_type": "w9",
+      "layout": "A",
+      "pred_type": "w9",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "name",
+          "truth": "Bluefin Freight Inc",
+          "got": "Bluefin Freight Inc",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "tax_classification",
+          "truth": "C corporation",
+          "got": "C corporation",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ein",
+          "truth": "20-5649307",
+          "got": "20-5649307",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "6483 Commerce Dr, Tacoma, Washington 92931",
+          "got": "6483 Commerce Dr Tacoma, Washington 92931",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "signature_date",
+          "truth": "2026-10-09",
+          "got": "10/09/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1768
+    },
+    {
+      "path": "history/H06/bank_letter.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Cedar Hollow Design LLC",
+          "got": "Cedar Hollow Design LLC",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "558011703203",
+          "got": "558011703203",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "routing_number",
+          "truth": "094841806",
+          "got": "094841806",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Willamette Trust Bank",
+          "got": "Willamette Trust Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-04",
+          "got": "10/04/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2492
+    },
+    {
+      "path": "history/H06/w9.pdf",
+      "true_type": "w9",
+      "layout": "A",
+      "pred_type": "w9",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "name",
+          "truth": "Cedar Hollow Design LLC",
+          "got": "Cedar Hollow Design LLC",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "tax_classification",
+          "truth": "LLC (C corporation)",
+          "got": "LLC (C corporation)",
+          "confidence": 0.95,
+          "correct": true
+        },
+        {
+          "field": "ein",
+          "truth": "27-3470016",
+          "got": "27-3470016",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "3558 Market St, Portland, Oregon 66453",
+          "got": "3558 Market St Portland, Oregon 66453",
+          "confidence": 0.95,
+          "correct": true
+        },
+        {
+          "field": "signature_date",
+          "truth": "2026-10-11",
+          "got": "10/11/2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2335
+    },
+    {
+      "path": "history/H07/bank_letter.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Wren & Oak Interiors Ltd",
+          "got": "Wren & Oak Interiors Ltd",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "38742423",
+          "got": "38742423",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "sort_code",
+          "truth": "78-18-54",
+          "got": "78-18-54",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Severn Commercial Bank",
+          "got": "Severn Commercial Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-09-30",
+          "got": "30 September 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 41342
+    },
+    {
+      "path": "history/H07/company_registration.pdf",
+      "true_type": "company_registration_certificate",
+      "layout": "A",
+      "pred_type": "company_registration_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Wren & Oak Interiors Ltd",
+          "got": "WREN & OAK INTERIORS LTD",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "company_number",
+          "truth": "84869933",
+          "got": "84869933",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2019-12-25",
+          "got": "25 December 2019",
+          "confidence": 0.98,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1607
+    },
+    {
+      "path": "history/H08/bank_proof.pdf",
+      "true_type": "cancelled_cheque",
+      "layout": "A",
+      "pred_type": "cancelled_cheque",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Palisade Security Systems Private Limited",
+          "got": "PALISADE SECURITY SYSTEMS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "80433277982546",
+          "got": "80433277982546",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "IDIB0SYN543",
+          "got": "IDIB0SYN543",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Indian Bank",
+          "got": "Indian Bank",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2150
+    },
+    {
+      "path": "history/H08/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "36ZZSCP7625H1ZR",
+          "got": "36ZZSCP7625H1ZR",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Palisade Security Systems Private Limited",
+          "got": "Palisade Security Systems Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "102, Industrial Estate, Hyderabad, Telangana 607957",
+          "got": "102, Industrial Estate, Hyderabad, Telangana 607 957",
+          "confidence": 0.95,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2022-03-25",
+          "got": "25/03/2022",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2306
+    },
+    {
+      "path": "history/H08/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Palisade Security Systems Private Limited",
+          "got": "PALISADE SECURITY SYSTEMS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U74999TG2013PTC464397",
+          "got": "U74999TG2013PTC464397",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2013-04-18",
+          "got": "18 April 2013",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2971
+    },
+    {
+      "path": "history/H08/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZSCP7625H",
+          "got": "ZZSCP7625H",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Palisade Security Systems Private Limited",
+          "got": "PALISADE SECURITY SYSTEMS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2013-04-18",
+          "got": "18/04/2013",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1095
+    },
+    {
+      "path": "history/H09/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Juniper Labs Private Limited",
+          "got": "Juniper Labs Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "195766148619",
+          "got": "195766148619",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "KKBK0SYN436",
+          "got": "KKBK0SYN436",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Kotak Mahindra Bank",
+          "got": "Kotak Mahindra Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-09-27",
+          "got": "27 September 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2213
+    },
+    {
+      "path": "history/H09/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "29ZZRCJ5660L1ZL",
+          "got": "29ZZRCJ5660L1ZL",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Juniper Labs Private Limited",
+          "got": "Juniper Labs Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "190, Station Road, Bengaluru, Karnataka 976407",
+          "got": "190, Station Road, Bengaluru, Karnataka 976407",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2017-12-18",
+          "got": "18/12/2017",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1611
+    },
+    {
+      "path": "history/H09/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Juniper Labs Private Limited",
+          "got": "JUNIPER LABS PRIVATE LIMITED",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U74999KA2011PTC372334",
+          "got": "U74999KA2011PTC372334",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2011-04-14",
+          "got": "14 April 2011",
+          "confidence": 0.98,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1923
+    },
+    {
+      "path": "history/H09/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZRCJ5660L",
+          "got": "ZZRCJ5660L",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Juniper Labs Private Limited",
+          "got": "JUNIPER LABS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2011-04-14",
+          "got": "14/04/2011",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2119
+    },
+    {
+      "path": "history/H10/bank_letter.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Northgate Advisory Ltd",
+          "got": "Northgate Advisory Ltd",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "79378319",
+          "got": "79378319",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "sort_code",
+          "truth": "45-26-57",
+          "got": "45-26-57",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Irwell Bank",
+          "got": "Irwell Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-13",
+          "got": "13 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 42001
+    },
+    {
+      "path": "history/H10/company_registration.pdf",
+      "true_type": "company_registration_certificate",
+      "layout": "A",
+      "pred_type": "company_registration_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Northgate Advisory Ltd",
+          "got": "NORTHGATE ADVISORY LTD",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "company_number",
+          "truth": "56968751",
+          "got": "56968751",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2021-10-14",
+          "got": "14 October 2021",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1971
+    },
+    {
+      "path": "history/H11/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Marigold Event Services Private Limited",
+          "got": "Marigold Event Services Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "40848449527843",
+          "got": "40848449527843",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "YESB0SYN820",
+          "got": "YESB0SYN820",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Yes Bank",
+          "got": "Yes Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-06-16",
+          "got": "16 June 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1975
+    },
+    {
+      "path": "history/H11/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "07ZZOCM4906F1Z9",
+          "got": "07ZZOCM4906F1Z9",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Marigold Event Services Private Limited",
+          "got": "Marigold Event Services Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "211, Ring Road, New Delhi, Delhi 567482",
+          "got": "211, Ring Road, New Delhi, Delhi 567482",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2017-10-16",
+          "got": "16 October 2017",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2076
+    },
+    {
+      "path": "history/H11/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Marigold Event Services Private Limited",
+          "got": "Marigold Event Services Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U72200DL2014PTC974649",
+          "got": "U72200DL2014PTC974649",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2014-04-08",
+          "got": "08/04/2014",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 3575
+    },
+    {
+      "path": "history/H11/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZOCM4906F",
+          "got": "ZZOCM4906F",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Marigold Event Services Private Limited",
+          "got": "Marigold Event Services Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2014-04-08",
+          "got": "08/04/2014",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1408
+    },
+    {
+      "path": "history/H12/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Ironbark Tools Private Limited",
+          "got": "Ironbark Tools Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "978489409364",
+          "got": "978489409364",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "PUNB0SYN816",
+          "got": "PUNB0SYN816",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Punjab National Bank",
+          "got": "Punjab National Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-03",
+          "got": "3 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1834
+    },
+    {
+      "path": "history/H12/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "06ZZKCI4721X1ZL",
+          "got": "06ZZKCI4721X1ZL",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Ironbark Tools Private Limited",
+          "got": "Ironbark Tools Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "136, Ring Road, Faridabad, Haryana 741172",
+          "got": "136, Ring Road, Faridabad, Haryana 741172",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2021-04-27",
+          "got": "27 April 2021",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1427
+    },
+    {
+      "path": "history/H12/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZKCI4721X",
+          "got": "ZZKCI4721X",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Ironbark Tools Private Limited",
+          "got": "Ironbark Tools Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2012-09-05",
+          "got": "05/09/2012",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1485
+    },
+    {
+      "path": "history/H13/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Saltmarsh Chemicals Private Limited",
+          "got": "Saltmarsh Chemicals Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "55356141226109",
+          "got": "55356141226109",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "BARB0SYN523",
+          "got": "BARB0SYN523",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Bank of Baroda",
+          "got": "Bank of Baroda",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-21",
+          "got": "21 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2134
+    },
+    {
+      "path": "history/H13/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "24ZZHCS6281G1Z4",
+          "got": "24ZZHCS6281G1Z4",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Saltmarsh Chemicals Private Limited",
+          "got": "Saltmarsh Chemicals Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "105, Ring Road, Vadodara, Gujarat 744229",
+          "got": "105, Ring Road, Vadodara, Gujarat 744229",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2021-11-21",
+          "got": "21/11/2021",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 42565
+    },
+    {
+      "path": "history/H13/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Saltmarsh Chemicals Private Limited",
+          "got": "SALTMARSH CHEMICALS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U52100GJ2012PTC912215",
+          "got": "U52100GJ2012PTC912215",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2012-03-23",
+          "got": "23 March 2012",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1401
+    },
+    {
+      "path": "history/H13/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZHCS6281G",
+          "got": "ZZHCS6281G",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Saltmarsh Chemicals Private Limited",
+          "got": "SALTMARSH CHEMICALS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2012-03-23",
+          "got": "23/03/2012",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1370
+    },
+    {
+      "path": "history/H14/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Vertex Prime Supplies Private Limited",
+          "got": "Vertex Prime Supplies Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "54293910563147",
+          "got": "54293910563147",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "SBIN0SYN985",
+          "got": "SBIN0SYN985",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "State Bank of India",
+          "got": "State Bank of India",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-06",
+          "got": "6 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2324
+    },
+    {
+      "path": "history/H14/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "24ZZRCQ1826X2Z7",
+          "got": "24ZZRCQ1826X2Z7",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Vertex Prime Supplies Private Limited",
+          "got": "Vertex Prime Supplies Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "146, Station Road, Rajkot, Gujarat 332938",
+          "got": "146, Station Road, Rajkot, Gujarat 332938",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2022-08-19",
+          "got": "19/08/2022",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 3589
+    },
+    {
+      "path": "history/H14/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Vertex Prime Supplies Private Limited",
+          "got": "VERTEX PRIME SUPPLIES PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U51909GJ2020PTC290245",
+          "got": "U51909GJ2020PTC290245",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2020-03-16",
+          "got": "16 March 2020",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1403
+    },
+    {
+      "path": "history/H14/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZRCQ1826X",
+          "got": "ZZRCQ1826X",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Vertex Prime Supplies Private Limited",
+          "got": "VERTEX PRIME SUPPLIES PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2020-03-16",
+          "got": "16/03/2020",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1691
+    },
+    {
+      "path": "history/H15/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Redwood Valley Analytics Private Limited",
+          "got": "Redwood Valley Analytics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "42223026362",
+          "got": "42223026362",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "HDFC0SYN714",
+          "got": "HDFC0SYN714",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "HDFC Bank",
+          "got": "HDFC Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-13",
+          "got": "13 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2075
+    },
+    {
+      "path": "history/H15/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "36ZZGCR8602J1Z1",
+          "got": "36ZZGCR8602J1Z1",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Redwood Valley Analytics Private Limited",
+          "got": "Redwood Valley Analytics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "155, Ring Road, Secunderabad, Telangana 923773",
+          "got": "155, Ring Road, Secunderabad, Telangana 923773",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2022-03-24",
+          "got": "24 March 2022",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1616
+    },
+    {
+      "path": "history/H15/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Redwood Valley Analytics Private Limited",
+          "got": "Redwood Valley Analytics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U51909TG2020PTC835620",
+          "got": "U51909TG2020PTC835620",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2020-07-08",
+          "got": "08/07/2020",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1678
+    },
+    {
+      "path": "history/H15/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZGCR8602J",
+          "got": "ZZGCR8602J",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Redwood Valley Analytics Private Limited",
+          "got": "Redwood Valley Analytics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2020-07-08",
+          "got": "08/07/2020",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 42058
+    },
+    {
+      "path": "history/H16/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Kingfisher Print Works Private Limited",
+          "got": "Kingfisher Print Works Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "99473829039579",
+          "got": "99473829039579",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "IOBA0SYN466",
+          "got": "IOBA0SYN466",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Indian Overseas Bank",
+          "got": "Indian Overseas Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-11",
+          "got": "11 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2062
+    },
+    {
+      "path": "history/H16/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "33ZZFCK2829F1ZN",
+          "got": "33ZZFCK2829F1ZN",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Kingfisher Print Works Private Limited",
+          "got": "Kingfisher Print Works Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "203, Station Road, Madurai, Tamil Nadu 807683",
+          "got": "203, Station Road, Madurai, Tamil Nadu 807683",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2018-06-03",
+          "got": "03/06/2018",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2012
+    },
+    {
+      "path": "history/H16/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Kingfisher Print Works Private Limited",
+          "got": "KINGFISHER PRINT WORKS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U72200TN2011PTC708819",
+          "got": "U72200TN2011PTC708819",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2011-04-27",
+          "got": "27 April 2011",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1269
+    },
+    {
+      "path": "history/H16/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZFCK2829F",
+          "got": "ZZFCK2829F",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Kingfisher Print Works Private Limited",
+          "got": "KINGFISHER PRINT WORKS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2011-04-27",
+          "got": "27/04/2011",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 3637
+    },
+    {
+      "path": "scenarios/e1_looks_fine/initial/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Brightline Components Private Limited",
+          "got": "Brightline Components Private Limited",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "76844666588",
+          "got": "76844666588",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "UTIB0SYN266",
+          "got": "UTIB0SYN266",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Axis Bank",
+          "got": "Axis Bank",
+          "confidence": 0.98,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-05",
+          "got": "5 October 2026",
+          "confidence": 0.98,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2266
+    },
+    {
+      "path": "scenarios/e1_looks_fine/initial/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "27ZZQCB7542N1ZT",
+          "got": "27ZZQCB7542N1ZT",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Brightline Components Private Limited",
+          "got": "Brightline Components Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "218, Park Street, Pune, Maharashtra 480671",
+          "got": "218, Park Street, Pune, Maharashtra 480671",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2019-05-18",
+          "got": "18 May 2019",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1446
+    },
+    {
+      "path": "scenarios/e1_looks_fine/initial/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Brightline Components Private Limited",
+          "got": "Brightline Components Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U52100MH2013PTC694051",
+          "got": "U52100MH2013PTC694051",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2013-06-26",
+          "got": "26/06/2013",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1492
+    },
+    {
+      "path": "scenarios/e1_looks_fine/initial/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZBPB6738L",
+          "got": "ZZBPB6738L",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Brightline Components Private Limited",
+          "got": "Brightline Components Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2013-06-26",
+          "got": "26/06/2013",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1864
+    },
+    {
+      "path": "scenarios/e2_wrong_docs/initial/w9.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZDCH5758G",
+          "got": "ZZDCH5758G",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Harborview Logistics LLC",
+          "got": "HARBORVIEW LOGISTICS LLC",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2016-03-09",
+          "got": "09/03/2016",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1796
+    },
+    {
+      "path": "scenarios/e3_ghost_vendor/initial/bank_proof.pdf",
+      "true_type": "cancelled_cheque",
+      "layout": "A",
+      "pred_type": "cancelled_cheque",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "R K Enterprises",
+          "got": "R K ENTERPRISES",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "15076170215",
+          "got": "15076170215",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "HDFC0SYN193",
+          "got": "HDFC0SYN193",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "HDFC Bank",
+          "got": "HDFC Bank",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 43628
+    },
+    {
+      "path": "scenarios/e3_ghost_vendor/initial/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "27ZZFCS8412Q1ZM",
+          "got": "27ZZFCS8412Q1ZM",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Silverline Office Supplies Private Limited",
+          "got": "Silverline Office Supplies Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "124, Ring Road, Mumbai, Maharashtra 994817",
+          "got": "124, Ring Road, Mumbai, Maharashtra 994817",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2020-10-20",
+          "got": "20/10/2020",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1634
+    },
+    {
+      "path": "scenarios/e3_ghost_vendor/initial/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Silverline Office Supplies Private Limited",
+          "got": "SILVERLINE OFFICE SUPPLIES PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U74999MH2012PTC530520",
+          "got": "U74999MH2012PTC530520",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2012-06-22",
+          "got": "22 June 2012",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1338
+    },
+    {
+      "path": "scenarios/e3_ghost_vendor/initial/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZFCS8412Q",
+          "got": "ZZFCS8412Q",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Silverline Office Supplies Private Limited",
+          "got": "SILVERLINE OFFICE SUPPLIES PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2012-06-22",
+          "got": "22/06/2012",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1499
+    },
+    {
+      "path": "scenarios/e4_fix_approved/initial/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "33ZZAFL3759F1ZE",
+          "got": "33ZZAFL3759F1ZE",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Lotus Lane Organics LLP",
+          "got": "Lotus Lane Organics LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "137, Industrial Estate, Coimbatore, Tamil Nadu 826570",
+          "got": "137, Industrial Estate, Coimbatore, Tamil Nadu 826570",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2023-11-09",
+          "got": "9 November 2023",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Limited Liability Partnership",
+          "got": "Limited Liability Partnership",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 3232
+    },
+    {
+      "path": "scenarios/e4_fix_approved/initial/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Lotus Lane Organics LLP",
+          "got": "Lotus Lane Organics LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "RWL-8877",
+          "got": "RWL-8877",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2014-08-29",
+          "got": "29/08/2014",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1596
+    },
+    {
+      "path": "scenarios/e4_fix_approved/initial/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZAFL3759F",
+          "got": "ZZAFL3759F",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Lotus Lane Organics LLP",
+          "got": "Lotus Lane Organics LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2014-08-29",
+          "got": "29/08/2014",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1569
+    },
+    {
+      "path": "scenarios/e4_fix_approved/resubmit/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Lotus Lane Organics LLP",
+          "got": "Lotus Lane Organics LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "434632443909",
+          "got": "434632443909",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "ICIC0SYN998",
+          "got": "ICIC0SYN998",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "ICICI Bank",
+          "got": "ICICI Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-21",
+          "got": "21 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2183
+    },
+    {
+      "path": "scenarios/e4b_bank_change/initial/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "B",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "29ZZUFJ4505Y1ZW",
+          "got": "29ZZUFJ4505Y1ZW",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Juniper Grove Farms LLP",
+          "got": "Juniper Grove Farms LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "161, Industrial Estate, Hubballi, Karnataka 646644",
+          "got": "161, Industrial Estate, Hubballi, Karnataka 646644",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2019-02-11",
+          "got": "11 February 2019",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Limited Liability Partnership",
+          "got": "Limited Liability Partnership",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1498
+    },
+    {
+      "path": "scenarios/e4b_bank_change/initial/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "B",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Juniper Grove Farms LLP",
+          "got": "Juniper Grove Farms LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "QEE-5776",
+          "got": "QEE-5776",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2016-05-25",
+          "got": "25/05/2016",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1711
+    },
+    {
+      "path": "scenarios/e4b_bank_change/initial/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "B",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZUFJ4505Y",
+          "got": "ZZUFJ4505Y",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Juniper Grove Farms LLP",
+          "got": "Juniper Grove Farms LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2016-05-25",
+          "got": "25/05/2016",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 41748
+    },
+    {
+      "path": "scenarios/e4b_bank_change/resubmit/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "B",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Juniper Grove Farms LLP",
+          "got": "Juniper Grove Farms LLP",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "329133415096",
+          "got": "329133415096",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "CNRB0SYN895",
+          "got": "CNRB0SYN895",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Canara Bank",
+          "got": "Canara Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-12",
+          "got": "12 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 3293
+    },
+    {
+      "path": "scenarios/e5_sanctions_near_miss/initial/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Neptune Maritime Private Limited",
+          "got": "Neptune Maritime Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "38260609744037",
+          "got": "38260609744037",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "BARB0SYN926",
+          "got": "BARB0SYN926",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "Bank of Baroda",
+          "got": "Bank of Baroda",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-22",
+          "got": "22 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2030
+    },
+    {
+      "path": "scenarios/e5_sanctions_near_miss/initial/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "24ZZCCN7272P1ZU",
+          "got": "24ZZCCN7272P1ZU",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Neptune Maritime Private Limited",
+          "got": "Neptune Maritime Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "105, Ring Road, Ahmedabad, Gujarat 346630",
+          "got": "105, Ring Road, Ahmedabad, Gujarat 346630",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2023-09-15",
+          "got": "15/09/2023",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1799
+    },
+    {
+      "path": "scenarios/e5_sanctions_near_miss/initial/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Neptune Maritime Private Limited",
+          "got": "NEPTUNE MARITIME PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U74999GJ2019PTC337919",
+          "got": "U74999GJ2019PTC337919",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2019-09-14",
+          "got": "14 September 2019",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2749
+    },
+    {
+      "path": "scenarios/e5_sanctions_near_miss/initial/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZCCN7272P",
+          "got": "ZZCCN7272P",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Neptune Maritime Private Limited",
+          "got": "NEPTUNE MARITIME PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2019-09-14",
+          "got": "14/09/2019",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1399
+    },
+    {
+      "path": "scenarios/happy/initial/bank_proof.pdf",
+      "true_type": "bank_letter",
+      "layout": "A",
+      "pred_type": "bank_letter",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "account_holder",
+          "truth": "Kestrel Analytics Pvt Ltd",
+          "got": "Kestrel Analytics Pvt Ltd",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "account_number",
+          "truth": "98826426187335",
+          "got": "98826426187335",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "ifsc",
+          "truth": "HDFC0SYN191",
+          "got": "HDFC0SYN191",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "bank_name",
+          "truth": "HDFC Bank",
+          "got": "HDFC Bank",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "letter_date",
+          "truth": "2026-10-08",
+          "got": "8 October 2026",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1628
+    },
+    {
+      "path": "scenarios/happy/initial/gst_certificate.pdf",
+      "true_type": "gst_certificate",
+      "layout": "A",
+      "pred_type": "gst_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "gstin",
+          "truth": "29ZZSCK1133Y1Z9",
+          "got": "29ZZSCK1133Y1Z9",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "legal_name",
+          "truth": "Kestrel Analytics Private Limited",
+          "got": "Kestrel Analytics Private Limited",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "trade_name",
+          "truth": "Kestrel Analytics",
+          "got": "Kestrel Analytics",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "address",
+          "truth": "36, Ring Road, Bengaluru, Karnataka 909717",
+          "got": "36, Ring Road, Bengaluru, Karnataka 909717",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "registration_date",
+          "truth": "2018-08-13",
+          "got": "13/08/2018",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "constitution",
+          "truth": "Private Limited Company",
+          "got": "Private Limited Company",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1789
+    },
+    {
+      "path": "scenarios/happy/initial/incorporation_certificate.pdf",
+      "true_type": "incorporation_certificate",
+      "layout": "A",
+      "pred_type": "incorporation_certificate",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "company_name",
+          "truth": "Kestrel Analytics Private Limited",
+          "got": "KESTREL ANALYTICS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "cin",
+          "truth": "U74999KA2015PTC701907",
+          "got": "U74999KA2015PTC701907",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "incorporation_date",
+          "truth": "2015-11-09",
+          "got": "9 November 2015",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 1461
+    },
+    {
+      "path": "scenarios/happy/initial/pan_card.pdf",
+      "true_type": "pan_card",
+      "layout": "A",
+      "pred_type": "pan_card",
+      "readable": true,
+      "type_correct": true,
+      "fields": [
+        {
+          "field": "pan",
+          "truth": "ZZSCK1133Y",
+          "got": "ZZSCK1133Y",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "name",
+          "truth": "Kestrel Analytics Private Limited",
+          "got": "KESTREL ANALYTICS PRIVATE LIMITED",
+          "confidence": 0.99,
+          "correct": true
+        },
+        {
+          "field": "date",
+          "truth": "2015-11-09",
+          "got": "09/11/2015",
+          "confidence": 0.99,
+          "correct": true
+        }
+      ],
+      "error": "",
+      "ms": 2713
+    }
+  ],
+  "tokens_in": 82550,
+  "tokens_out": 34479
+}

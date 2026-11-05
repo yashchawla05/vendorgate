@@ -1,0 +1,19 @@
+{
+  "id": "e1_looks_fine",
+  "title": "E1: Looks fine, isn't",
+  "story": "Every field is present and format-valid (the GSTIN checksum passes), but the GSTIN embeds a different PAN from the one declared, and the declared PAN's 4th letter 'P' means an individual while the vendor says it is a company.",
+  "steps": [
+    {
+      "dir": "initial",
+      "kind": "submit",
+      "expect": {
+        "status": "PENDING",
+        "sub_status": "awaiting_internal_review",
+        "rules": [
+          "CON-002",
+          "CON-004"
+        ]
+      }
+    }
+  ]
+}

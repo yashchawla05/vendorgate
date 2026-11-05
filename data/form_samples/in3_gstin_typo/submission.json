@@ -1,0 +1,53 @@
+{
+  "legal_name": "Indigo Reef Textiles Private Limited",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "71, Ring Road",
+    "city": "Surat",
+    "state": "Gujarat",
+    "postal_code": "144124"
+  },
+  "contact": {
+    "name": "Procurement Desk",
+    "email": "accounts@indigoreef.example",
+    "phone": "+91 00000 29358"
+  },
+  "website": "https://www.indigoreef.example",
+  "tax": {
+    "pan": "ZZCCI3762O",
+    "gstin": "24ZZCCI3762O1ZA",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Indigo Reef Textiles Private Limited",
+    "account_number": "971119232252",
+    "bank_name": "Kotak Mahindra Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "KKBK0SYN569"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

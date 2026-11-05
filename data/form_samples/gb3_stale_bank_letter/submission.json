@@ -1,0 +1,43 @@
+{
+  "legal_name": "Brackenfield Studios Ltd",
+  "trade_name": "",
+  "country": "GB",
+  "entity_type": "company",
+  "address": {
+    "line1": "11 Station Road",
+    "city": "Sheffield",
+    "state": "England",
+    "postal_code": "EH1 2AB"
+  },
+  "contact": {
+    "name": "Finance Team",
+    "email": "finance@brackenfieldstudios.example",
+    "phone": "+44 7700 900511"
+  },
+  "website": "https://www.brackenfieldstudios.example",
+  "tax": {
+    "company_number": "66028231"
+  },
+  "bank": {
+    "account_holder": "Brackenfield Studios Ltd",
+    "account_number": "70920443",
+    "bank_name": "Peak District Bank",
+    "currency": "GBP",
+    "bank_country": "GB",
+    "sort_code": "40-73-89"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    },
+    {
+      "slot": "company_registration",
+      "filename": "company_registration.pdf"
+    }
+  ]
+}

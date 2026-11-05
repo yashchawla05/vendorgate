@@ -1,0 +1,21 @@
+{
+  "id": "e2_wrong_docs",
+  "title": "E2: Wrong country, wrong documents",
+  "story": "A US company supplies an Indian GSTIN instead of an EIN, uploads a PAN card in the W-9 slot and no bank letter. The classifier must notice the PAN card.",
+  "steps": [
+    {
+      "dir": "initial",
+      "kind": "submit",
+      "expect": {
+        "status": "PENDING",
+        "sub_status": "awaiting_vendor",
+        "rules": [
+          "DOC-001",
+          "COMP-001",
+          "COMP-002",
+          "CON-001"
+        ]
+      }
+    }
+  ]
+}

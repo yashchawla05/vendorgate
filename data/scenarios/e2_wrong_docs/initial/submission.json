@@ -1,0 +1,40 @@
+{
+  "legal_name": "Harborview Logistics LLC",
+  "trade_name": "",
+  "country": "US",
+  "entity_type": "company",
+  "address": {
+    "line1": "4567 Commerce Dr",
+    "city": "Wilmington",
+    "state": "Delaware",
+    "postal_code": "62641"
+  },
+  "contact": {
+    "name": "Accounts Payable",
+    "email": "ap@harborviewlogistics.example",
+    "phone": "+1 555 0176"
+  },
+  "website": "https://www.harborviewlogistics.example",
+  "tax": {
+    "gstin": "27ZZDCH5758G1Z9",
+    "ein": ""
+  },
+  "bank": {
+    "account_holder": "Harborview Logistics LLC",
+    "account_number": "6138021402",
+    "bank_name": "Brandywine Federal Bank",
+    "currency": "USD",
+    "bank_country": "US",
+    "routing_number": "036248629"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "w9",
+      "filename": "w9.pdf"
+    }
+  ]
+}

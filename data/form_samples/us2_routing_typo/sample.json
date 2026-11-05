@@ -1,0 +1,13 @@
+{
+  "id": "us2_routing_typo",
+  "country": "US",
+  "title": "US 2: Routing number typed wrong",
+  "story": "The ABA routing number on the form fails its check digit (one digit off). The bank letter has the right number; the vendor is asked to correct it.",
+  "expect": {
+    "status": "PENDING",
+    "sub_status": "awaiting_vendor",
+    "rules": [
+      "FMT-ABA"
+    ]
+  }
+}

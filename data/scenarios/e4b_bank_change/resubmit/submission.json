@@ -1,0 +1,41 @@
+{
+  "legal_name": "Juniper Grove Farms LLP",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "llp_partnership",
+  "address": {
+    "line1": "161, Industrial Estate",
+    "city": "Hubballi",
+    "state": "Karnataka",
+    "postal_code": "646644"
+  },
+  "contact": {
+    "name": "Accounts Team",
+    "email": "accounts@junipergrove.example",
+    "phone": "+91 00000 42685"
+  },
+  "website": "https://www.junipergrove.example",
+  "tax": {
+    "pan": "ZZUFJ4505Y",
+    "gstin": "29ZZUFJ4505Y1ZW",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Juniper Grove Farms LLP",
+    "account_number": "329133415096",
+    "bank_name": "Canara Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "CNRB0SYN895"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    }
+  ]
+}

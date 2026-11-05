@@ -1,0 +1,43 @@
+{
+  "legal_name": "Wren & Oak Interiors Ltd",
+  "trade_name": "",
+  "country": "GB",
+  "entity_type": "company",
+  "address": {
+    "line1": "104 Queen Street",
+    "city": "Bristol",
+    "state": "England",
+    "postal_code": "BS1 5TR"
+  },
+  "contact": {
+    "name": "Finance Team",
+    "email": "finance@wrenoak.example",
+    "phone": "+44 7700 900535"
+  },
+  "website": "https://www.wrenoak.example",
+  "tax": {
+    "company_number": "84869933"
+  },
+  "bank": {
+    "account_holder": "Wren & Oak Interiors Ltd",
+    "account_number": "38742423",
+    "bank_name": "Severn Commercial Bank",
+    "currency": "GBP",
+    "bank_country": "GB",
+    "sort_code": "78-18-54"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "bank_letter",
+      "filename": "bank_letter.pdf"
+    },
+    {
+      "slot": "company_registration",
+      "filename": "company_registration.pdf"
+    }
+  ]
+}

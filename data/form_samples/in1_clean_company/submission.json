@@ -1,0 +1,53 @@
+{
+  "legal_name": "Marblewood Interiors Private Limited",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "33, Station Road",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "postal_code": "136897"
+  },
+  "contact": {
+    "name": "Accounts Team",
+    "email": "accounts@marblewoodinteriors.example",
+    "phone": "+91 00000 88438"
+  },
+  "website": "https://www.marblewoodinteriors.example",
+  "tax": {
+    "pan": "ZZSCM1087M",
+    "gstin": "27ZZSCM1087M1ZM",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Marblewood Interiors Private Limited",
+    "account_number": "79795388011188",
+    "bank_name": "ICICI Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "ICIC0SYN820"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    },
+    {
+      "slot": "incorporation_certificate",
+      "filename": "incorporation_certificate.pdf"
+    }
+  ]
+}

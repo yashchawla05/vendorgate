@@ -1,0 +1,48 @@
+# VendorGate decision policy. Every number here is an ASSUMPTION for the demo
+# (see ASSUMPTIONS.md); a real deployment would set them with procurement and compliance.
+version: "2026-11-01.1"
+
+thresholds:
+  name_match: 95            # >= : same name after normalisation
+  name_ambiguous: 80        # 80-95 : ask the adjudicator (LLM) for yes/no/unsure
+  doc_confidence_min: 0.80  # every document's key fields must be read at least this confidently
+  bank_letter_max_age_days: 90
+  sanctions_strong: 92      # >= : strong match -> CRITICAL
+  sanctions_possible: 85    # 85-92 : possible match -> human review
+  duplicate_name_similarity: 90
+  approve_max_risk: 30      # APPROVED needs risk score below this
+
+# Risk score = min(cap, sum of weights of all findings), shown per finding.
+risk_weights: {INFO: 0, WARN: 5, HIGH: 20, CRITICAL: 40}
+risk_cap: 100
+
+reject:
+  trigger_rules: [SAN-001, FRD-001]   # any one of these -> REJECTED
+  min_critical_findings: 2            # this many CRITICAL findings -> REJECTED
+  max_failed_resubmissions: 3         # more failed attempts than this -> REJECTED
+
+resubmission_token_ttl_days: 14
+
+# Used only for the "manual review time saved" KPI on the dashboard.
+manual_review_minutes_per_submission: 45
+
+free_email_domains: [gmail.com, yahoo.com, yahoo.co.in, outlook.com, hotmail.com, live.com, rediffmail.com,
+                     icloud.com, aol.com, proton.me, protonmail.com, zoho.com, gmx.com, mail.com]
+
+# What a complete submission contains. Field paths refer to the SubmissionForm model.
+requirements:
+  supported_countries: [IN, US, GB]
+  fields:
+    all: [legal_name, country, entity_type, address.line1, address.city, address.postal_code, contact.name,
+          contact.email, bank.account_holder, bank.account_number, bank.bank_name]
+    IN: [address.state, tax.pan, bank.ifsc]
+    US: [address.state, tax.ein, bank.routing_number]
+    GB: [bank.sort_code]
+    GB_company: [tax.company_number]
+  documents:
+    IN: [pan_card, bank_proof]
+    IN_company: [incorporation_certificate]
+    IN_llp_partnership: [incorporation_certificate]
+    US: [w9, bank_letter]
+    GB: [bank_letter]
+    GB_company: [company_registration]

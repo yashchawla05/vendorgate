@@ -1,0 +1,49 @@
+{
+  "legal_name": "Ironbark Tools Private Limited",
+  "trade_name": "",
+  "country": "IN",
+  "entity_type": "company",
+  "address": {
+    "line1": "136, Ring Road",
+    "city": "Faridabad",
+    "state": "Haryana",
+    "postal_code": "741172"
+  },
+  "contact": {
+    "name": "Accounts Team",
+    "email": "accounts@ironbarktools.example",
+    "phone": "+91 00000 27649"
+  },
+  "website": "https://www.ironbarktools.example",
+  "tax": {
+    "pan": "ZZKCI4721X",
+    "gstin": "06ZZKCI4721X1ZL",
+    "no_gst_declaration": false
+  },
+  "bank": {
+    "account_holder": "Ironbark Tools Private Limited",
+    "account_number": "978489409364",
+    "bank_name": "Punjab National Bank",
+    "currency": "INR",
+    "bank_country": "IN",
+    "ifsc": "PUNB0SYN816"
+  },
+  "declarations": {
+    "information_accurate": true,
+    "consent_to_verification": true
+  },
+  "documents": [
+    {
+      "slot": "pan_card",
+      "filename": "pan_card.pdf"
+    },
+    {
+      "slot": "gst_certificate",
+      "filename": "gst_certificate.pdf"
+    },
+    {
+      "slot": "bank_proof",
+      "filename": "bank_proof.pdf"
+    }
+  ]
+}

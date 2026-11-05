@@ -1,0 +1,44 @@
+[server]
+headless = true
+maxUploadSize = 10   # MB per file; part of the cost guard
+
+[client]
+toolbarMode = "viewer"   # hide developer menu / Deploy button for the demo
+
+[browser]
+gatherUsageStats = false
+
+# Two palettes (System follows the device; the Light / Dark buttons in ui/topbar.py switch them).
+# Our own HTML follows the same switch: see ui/theme.py (backgroundColor values must match TOKENS["page"]).
+# Look inspired by zamp.ai: white pages, near-black ink, Geist type, cream sidebar, one blue accent.
+[theme]
+font = "Geist:https://fonts.googleapis.com/css2?family=Geist:wght@300..700&display=swap, sans-serif"
+codeFont = "Geist Mono:https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400..600&display=swap, monospace"
+baseRadius = "10px"
+showSidebarBorder = true
+
+[theme.light]
+primaryColor = "#005EFF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F4"
+textColor = "#171717"
+linkColor = "#0050E0"
+borderColor = "#E8E8E6"
+
+[theme.light.sidebar]
+backgroundColor = "#F7F6F3"
+secondaryBackgroundColor = "#ECEAE4"
+textColor = "#171717"
+
+[theme.dark]
+primaryColor = "#3D7BFF"
+backgroundColor = "#111111"
+secondaryBackgroundColor = "#1E1E1E"
+textColor = "#EDEDED"
+linkColor = "#7AA8FF"
+borderColor = "#2A2A2A"
+
+[theme.dark.sidebar]
+backgroundColor = "#171717"
+secondaryBackgroundColor = "#262626"
+textColor = "#EDEDED"

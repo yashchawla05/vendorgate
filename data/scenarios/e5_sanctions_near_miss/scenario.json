@@ -1,0 +1,18 @@
+{
+  "id": "e5_sanctions_near_miss",
+  "title": "E5: Sanctions near-miss",
+  "story": "Vendor name scores 87 against the SDN entry 'NEPTUNE MARINE LTD'. A possible match must go to a human, never be auto-decided.",
+  "steps": [
+    {
+      "dir": "initial",
+      "kind": "submit",
+      "expect": {
+        "status": "PENDING",
+        "sub_status": "awaiting_internal_review",
+        "rules": [
+          "SAN-002"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "e4_fix_approved",
+  "title": "E4: Pending -> fixed -> approved",
+  "story": "First submission has no bank proof and an IFSC typo. The vendor uses the tokenised link to fix only those items; the system diffs, re-runs and approves.",
+  "steps": [
+    {
+      "dir": "initial",
+      "kind": "submit",
+      "expect": {
+        "status": "PENDING",
+        "sub_status": "awaiting_vendor",
+        "rules": [
+          "COMP-002",
+          "FMT-IFSC"
+        ]
+      }
+    },
+    {
+      "dir": "resubmit",
+      "kind": "resubmit",
+      "expect": {
+        "status": "APPROVED"
+      }
+    }
+  ]
+}
